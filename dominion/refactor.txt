@@ -1,0 +1,9 @@
+Create card effect functions for the following cards:
+	adventurer
+	council_room
+	feast
+	mine
+	remodel
+	smithy
+
+My process was to pull out the code from each case statement, from the switch statement in the cardEffect function, and use it to create individual functions. The goal behind this refactor was to allow for each card effect to be tested individually. The new functions were added below the main cardEffect function and the prototypes were added to the domain.h file.
