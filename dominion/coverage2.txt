@@ -1,0 +1,13 @@
+Describe any bugs that I found
+When testing initializeGame(), I found that that only the first player was drawing their initial 5 cards.
+
+When testing playCard(), I found that cards were not being discarded. This could be a result of a function outside playCard() is supposed to handle this behavior. A similar situation occurred for playing an action that was supposed to not give any coins. Instead it seemed that all the coppers in the player's hand were counted for coins. One problem here is that the coppers remained in the player's hand.
+
+When testing cardEffect() I found that it wasn’t discarding played cards which follows from my tests of playCard().
+
+Although the cards were not being discarded, the discard count did seem to be updated except for the Adventurer card. Which I believe was the bug that I introduced.
+
+Report on my findings relating to code coverage and describe the implications
+My code coverage landed at 35.5%. I found that most of the lines were covered in the functions that I tested however I seemed to miss a couple edge cases where the function could have stopped and returned a -1 mid process. I believe the missed edge cases were for cases that should not be reached when the game was being played correctly. For instance, trying to play a card that was not an action.
+
+Since my test coverage was only at 35% I can’t say that the game is anywhere close to being fully tested. The implication is that we can’t expect the game to run as expected and unknown bugs may still be present. With only 35% coverage I was able to detect at least one bug and a couple of implementation choices that are different from the expected rule set.

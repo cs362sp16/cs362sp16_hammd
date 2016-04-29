@@ -15,62 +15,62 @@ Sam Heinith CS362
 
 void cardNumToName(int card, char *name){
   switch(card){
-  case curse: strcpy(name,"Curse");
+    case curse: strcpy(name,"Curse");
     break;
-  case estate: strcpy(name,"Estate");
+    case estate: strcpy(name,"Estate");
     break;
-  case duchy: strcpy(name,"Duchy");
+    case duchy: strcpy(name,"Duchy");
     break;
-  case province: strcpy(name,"Province");
+    case province: strcpy(name,"Province");
     break;
-  case copper: strcpy(name,"Copper");
+    case copper: strcpy(name,"Copper");
     break;
-  case silver: strcpy(name,"Silver");
+    case silver: strcpy(name,"Silver");
     break;
-  case gold: strcpy(name,"Gold");
+    case gold: strcpy(name,"Gold");
     break;
-  case adventurer: strcpy(name,"Adventurer");
+    case adventurer: strcpy(name,"Adventurer");
     break;
-  case council_room: strcpy(name,"Council Room");
+    case council_room: strcpy(name,"Council Room");
     break;
-  case feast: strcpy(name,"Feast");
+    case feast: strcpy(name,"Feast");
     break;
-  case gardens: strcpy(name,"Gardens");
+    case gardens: strcpy(name,"Gardens");
     break;
-  case mine: strcpy(name,"Mine");
+    case mine: strcpy(name,"Mine");
     break;
-  case remodel: strcpy(name,"Remodel");
+    case remodel: strcpy(name,"Remodel");
     break;
-  case smithy: strcpy(name,"Smithy");
+    case smithy: strcpy(name,"Smithy");
     break;
-  case village: strcpy(name,"Village");
+    case village: strcpy(name,"Village");
     break;
-  case baron: strcpy(name,"Baron");
+    case baron: strcpy(name,"Baron");
     break;
-  case great_hall: strcpy(name,"Great Hall");
+    case great_hall: strcpy(name,"Great Hall");
     break;
-  case minion: strcpy(name,"Minion");
+    case minion: strcpy(name,"Minion");
     break;
-  case steward: strcpy(name,"Steward");
+    case steward: strcpy(name,"Steward");
     break;
-  case tribute: strcpy(name,"Tribute");
+    case tribute: strcpy(name,"Tribute");
     break;
-  case ambassador: strcpy(name,"Ambassador");
+    case ambassador: strcpy(name,"Ambassador");
     break;
-  case cutpurse: strcpy(name,"Cutpurse");
+    case cutpurse: strcpy(name,"Cutpurse");
     break;
-  case embargo: strcpy(name,"Embargo");
+    case embargo: strcpy(name,"Embargo");
     break;
-  case outpost: strcpy(name,"Outpost");
+    case outpost: strcpy(name,"Outpost");
     break;
-  case salvager: strcpy(name,"Salvager");
+    case salvager: strcpy(name,"Salvager");
     break;
-  case sea_hag: strcpy(name,"Sea Hag");
+    case sea_hag: strcpy(name,"Sea Hag");
     break;
-  case treasure_map: strcpy(name,"Treasure Map");
+    case treasure_map: strcpy(name,"Treasure Map");
     break;
 
-  default: strcpy(name,"?");
+    default: strcpy(name,"?");
   }
 
 }
@@ -80,61 +80,61 @@ void cardNumToName(int card, char *name){
 int getCardCost(int card) {
   int cost;
   switch(card) {
-  case curse: cost = CURSE_COST;
+    case curse: cost = CURSE_COST;
     break;
-  case estate: cost = ESTATE_COST;
+    case estate: cost = ESTATE_COST;
     break;
-  case duchy: cost = DUCHY_COST;
+    case duchy: cost = DUCHY_COST;
     break;
-  case province: cost = PROVINCE_COST;
+    case province: cost = PROVINCE_COST;
     break;
-  case copper: cost = COPPER_COST;
+    case copper: cost = COPPER_COST;
     break;
-  case silver: cost = SILVER_COST;
+    case silver: cost = SILVER_COST;
     break;
-  case gold: cost = GOLD_COST;
+    case gold: cost = GOLD_COST;
     break;
-  case adventurer: cost = ADVENTURER_COST;
+    case adventurer: cost = ADVENTURER_COST;
     break;
-  case council_room: cost = COUNCIL_ROOM_COST;
+    case council_room: cost = COUNCIL_ROOM_COST;
     break;
-  case feast: cost = FEAST_COST;
+    case feast: cost = FEAST_COST;
     break;
-  case gardens: cost = GARDEN_COST;
+    case gardens: cost = GARDEN_COST;
     break;
-  case mine:  cost = MINE_COST;
+    case mine:  cost = MINE_COST;
     break;
-  case remodel: cost = REMODEL_COST;
+    case remodel: cost = REMODEL_COST;
     break;
-  case smithy: cost = SMITHY_COST;
+    case smithy: cost = SMITHY_COST;
     break;
-  case village: cost = VILLAGE_COST;
+    case village: cost = VILLAGE_COST;
     break;
-  case baron: cost = BARON_COST;
+    case baron: cost = BARON_COST;
     break;
-  case great_hall: cost = GREAT_HALL_COST;
+    case great_hall: cost = GREAT_HALL_COST;
     break;
-  case minion: cost = MINION_COST;
+    case minion: cost = MINION_COST;
     break;
-  case steward: cost = STEWARD_COST;
+    case steward: cost = STEWARD_COST;
     break;
-  case tribute: cost = TRIBUTE_COST;
+    case tribute: cost = TRIBUTE_COST;
     break;
-  case ambassador: cost = AMBASSADOR_COST;
+    case ambassador: cost = AMBASSADOR_COST;
     break;
-  case cutpurse: cost = CUTPURSE_COST;
+    case cutpurse: cost = CUTPURSE_COST;
     break;
-  case embargo: cost = EMBARGO_COST;
+    case embargo: cost = EMBARGO_COST;
     break;
-  case outpost: cost = OUTPOST_COST;
+    case outpost: cost = OUTPOST_COST;
     break;
-  case salvager: cost = SALVAGER_COST;
+    case salvager: cost = SALVAGER_COST;
     break;
-  case sea_hag: cost = SEA_HAG_COST;
+    case sea_hag: cost = SEA_HAG_COST;
     break;
-  case treasure_map: cost = TREASURE_MAP_COST;
+    case treasure_map: cost = TREASURE_MAP_COST;
     break;
-  default: cost = ONETHOUSAND;
+    default: cost = ONETHOUSAND;
   }
   return cost;
 }
@@ -246,18 +246,18 @@ void printScores(struct gameState *game) {
 
 void printHelp(void) {
   printf("Commands are: \n\
-  add [Supply Card Number] 			- add any card to your hand (teh hacks)\n\
-  buy [Supply Card Number] 			- buy a card at supply position\n\
-  end 			      			- end your turn\n\
-  init [Number of Players] [Number of Bots] 	- initialize the game\n\
-  num 			      			- print number of cards in your hand\n\
-  play [Hand Index] [Choice] [Choice] [Choice]	- play a card from your hand\n\
-  resign					- end the game showing the current scores\n\
-  show 						- show your current hand\n\
-  stat 						- show your turn's status\n\
-  supp 						- show the supply\n\
-  whos 			      			- whos turn\n\
-  exit 			      			- exit the interface");
+    add [Supply Card Number] 			- add any card to your hand (teh hacks)\n\
+    buy [Supply Card Number] 			- buy a card at supply position\n\
+    end 			      			- end your turn\n\
+    init [Number of Players] [Number of Bots] 	- initialize the game\n\
+    num 			      			- print number of cards in your hand\n\
+    play [Hand Index] [Choice] [Choice] [Choice]	- play a card from your hand\n\
+    resign					- end the game showing the current scores\n\
+    show 						- show your current hand\n\
+    stat 						- show your turn's status\n\
+    supp 						- show the supply\n\
+    whos 			      			- whos turn\n\
+    exit 			      			- exit the interface");
   printf("\n\n");
 
 }
@@ -265,11 +265,11 @@ void printHelp(void) {
 
 void phaseNumToName(int phase, char *name) {
   switch(phase){
-  case ACTION_PHASE: strcpy(name,"Action");
+    case ACTION_PHASE: strcpy(name,"Action");
     break;
-  case BUY_PHASE: strcpy(name,"Buy");
+    case BUY_PHASE: strcpy(name,"Buy");
     break;
-  case CLEANUP_PHASE: strcpy(name,"Cleanup");
+    case CLEANUP_PHASE: strcpy(name,"Cleanup");
     break;	
   }
 }
@@ -288,39 +288,39 @@ int addCardToHand(int player, int card, struct gameState *game) {
 }
 
 void selectKingdomCards(int randomSeed, int kingCards[NUM_K_CARDS]) {
-   int i, used, card, numSelected = 0;
-   SelectStream(1);
-	PutSeed((long)randomSeed);
+ int i, used, card, numSelected = 0;
+ SelectStream(1);
+ PutSeed((long)randomSeed);
  
-	
-  while(numSelected < NUM_K_CARDS) {
-    used = FALSE;
-    card = floor(Random() * NUM_TOTAL_K_CARDS);
-    if(card < adventurer) continue;
-    for(i = 0; i < numSelected; i++) {
-      if(kingCards[i] == card) {
-	used = TRUE;
-	break;
-      }
-    }
-    if(used == TRUE) continue;
-    kingCards[numSelected] = card;
-    numSelected++;
-  }
+ 
+ while(numSelected < NUM_K_CARDS) {
+  used = FALSE;
+  card = floor(Random() * NUM_TOTAL_K_CARDS);
+  if(card < adventurer) continue;
+  for(i = 0; i < numSelected; i++) {
+    if(kingCards[i] == card) {
+     used = TRUE;
+     break;
+   }
+ }
+ if(used == TRUE) continue;
+ kingCards[numSelected] = card;
+ numSelected++;
+}
 }
 
 
 int countHandCoins(int player, struct gameState *game) {
   int card, index, coinage = 0;
-	
+  
   for(index = 0; index < game->handCount[player]; index++) {
     card = game->hand[player][index];
     switch(card) {
-    case copper: coinage += COPPER_VALUE;
+      case copper: coinage += COPPER_VALUE;
       break;
-    case silver: coinage += SILVER_VALUE;
+      case silver: coinage += SILVER_VALUE;
       break;
-    case gold: coinage += GOLD_VALUE;
+      case gold: coinage += GOLD_VALUE;
       break;
     }
   }
@@ -330,11 +330,11 @@ int countHandCoins(int player, struct gameState *game) {
 
 void executeBotTurn(int player, int *turnNum, struct gameState *game) {
   int coins = countHandCoins(player, game);
-	
+  
   printf("*****************Executing Bot Player %d Turn Number %d*****************\n", player, *turnNum);
   printSupply(game);	
   //sleep(1); //Thinking...
-	
+  
   if(coins >= PROVINCE_COST && supplyCount(province,game) > 0) {
     buyCard(province,game);
     printf("Player %d buys card Province\n\n", player);
@@ -353,7 +353,7 @@ void executeBotTurn(int player, int *turnNum, struct gameState *game) {
 
   }
 
-	
+  
   if(player == (game->numPlayers -1)) (*turnNum)++;
   endTurn(game);
   if(! isGameOver(game)) {

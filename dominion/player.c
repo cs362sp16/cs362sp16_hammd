@@ -20,106 +20,106 @@
 #include "rngs.h"
 
 
-int main2(int argc, char *argv[]) {
+	int main2(int argc, char *argv[]) {
 	//Default cards, as defined in playDom
-	int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy};
-	struct gameState g;
-	initializeGame(2,k,1,&g);
-	printf ("SUCCESSFUL INIT\n");
-	getchar();
-}
-
-int main(int argc, char* argv[]) {
-		char *add  = "add";
-	char *buyC = "buy";
-	char *endT = "end";
-	char *exit = "exit";
-	char *help = "help";
-	char *init = "init";
-	char *numH = "num";
-	char *play = "play";
-	char *resign  = "resi";
-	char *show = "show";
-	char *stat = "stat";
-	char *supply = "supp";
-	char *whos = "whos";
-		
-	char command[MAX_STRING_LENGTH];
-	char line[MAX_STRING_LENGTH];
-	char cardName[MAX_STRING_LENGTH];
-
-	//Array to hold bot presence 
-	int isBot[MAX_PLAYERS] = { 0, 0, 0, 0};
-
-	int players[MAX_PLAYERS];
-	int playerNum;
-	int outcome;
-	int currentPlayer;
-	int gameOver = FALSE;
-	int gameStarted = FALSE;
-	int turnNum = 0;
-
-	int randomSeed = atoi(argv[1]);
-
-	//Default cards, as defined in playDom
-	int kCards[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy};
-
-	struct gameState g;
-	struct gameState * game = &g;
-
-	memset(game,0,sizeof(struct gameState));
-		
-	if(argc != 2){
-		printf("Usage: player [integer random number seed]\n");
-		return EXIT_SUCCESS;
+		int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy};
+		struct gameState g;
+		initializeGame(2,k,1,&g);
+		printf ("SUCCESSFUL INIT\n");
+		getchar();
 	}
 
-	if(randomSeed <= 0){
-		printf("Usage: player [integer random number seed]\n");
-		return EXIT_SUCCESS;
-	}	
-	
-	initializeGame(2,kCards,randomSeed,game);
-
-	printf("Please enter a command or \"help\" for commands\n");
-	
-
-	while(TRUE) {
-		int arg0 = UNUSED;
-		int arg1 = UNUSED;
-		int arg2 = UNUSED;
-		int arg3 = UNUSED;
-
-		outcome = FAILURE;
-		strcpy(line,"");
-		strcpy(command,"");
-		strcpy(cardName,"");
+	int main(int argc, char* argv[]) {
+		char *add  = "add";
+		char *buyC = "buy";
+		char *endT = "end";
+		char *exit = "exit";
+		char *help = "help";
+		char *init = "init";
+		char *numH = "num";
+		char *play = "play";
+		char *resign  = "resi";
+		char *show = "show";
+		char *stat = "stat";
+		char *supply = "supp";
+		char *whos = "whos";
 		
-		currentPlayer = whoseTurn(game);
+		char command[MAX_STRING_LENGTH];
+		char line[MAX_STRING_LENGTH];
+		char cardName[MAX_STRING_LENGTH];
+
+	//Array to hold bot presence 
+		int isBot[MAX_PLAYERS] = { 0, 0, 0, 0};
+
+		int players[MAX_PLAYERS];
+		int playerNum;
+		int outcome;
+		int currentPlayer;
+		int gameOver = FALSE;
+		int gameStarted = FALSE;
+		int turnNum = 0;
+
+		int randomSeed = atoi(argv[1]);
+
+	//Default cards, as defined in playDom
+		int kCards[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy};
+
+		struct gameState g;
+		struct gameState * game = &g;
+
+		memset(game,0,sizeof(struct gameState));
 		
-		//If you are getting a seg fault comment this if block out
-		gameOver = isGameOver(game); 		
-		if(gameStarted == TRUE && gameOver == TRUE){
-			printScores(game);
-			getWinners(players, game);
-			printf("After %d turns, the winner(s) are:\n", turnNum);
-			for(playerNum = 0; playerNum < game->numPlayers; playerNum++){
-				if(players[playerNum] == WINNER) printf("Player %d\n", playerNum);
-			}
-		for(playerNum = 0; playerNum < game->numPlayers; playerNum++){
-				printHand(playerNum, game);
-				printPlayed(playerNum, game);
-				printDiscard(playerNum, game);
-				printDeck(playerNum, game);
-			}
+		if(argc != 2){
+			printf("Usage: player [integer random number seed]\n");
+			return EXIT_SUCCESS;
+		}
+
+		if(randomSeed <= 0){
+			printf("Usage: player [integer random number seed]\n");
+			return EXIT_SUCCESS;
+		}	
+		
+		initializeGame(2,kCards,randomSeed,game);
+
+		printf("Please enter a command or \"help\" for commands\n");
+		
+
+		while(TRUE) {
+			int arg0 = UNUSED;
+			int arg1 = UNUSED;
+			int arg2 = UNUSED;
+			int arg3 = UNUSED;
+
+			outcome = FAILURE;
+			strcpy(line,"");
+			strcpy(command,"");
+			strcpy(cardName,"");
 			
+			currentPlayer = whoseTurn(game);
+			
+		//If you are getting a seg fault comment this if block out
+			gameOver = isGameOver(game); 		
+			if(gameStarted == TRUE && gameOver == TRUE){
+				printScores(game);
+				getWinners(players, game);
+				printf("After %d turns, the winner(s) are:\n", turnNum);
+				for(playerNum = 0; playerNum < game->numPlayers; playerNum++){
+					if(players[playerNum] == WINNER) printf("Player %d\n", playerNum);
+				}
+				for(playerNum = 0; playerNum < game->numPlayers; playerNum++){
+					printHand(playerNum, game);
+					printPlayed(playerNum, game);
+					printDiscard(playerNum, game);
+					printDeck(playerNum, game);
+				}
+				
 			break; //Exit out of the game/while loop
 		}         
 		
 
 		if(isBot[currentPlayer] == TRUE) {
-				executeBotTurn(currentPlayer, &turnNum, game);
-				continue;
+			executeBotTurn(currentPlayer, &turnNum, game);
+			continue;
 		}
 		
 		printf("$ ");
@@ -209,8 +209,8 @@ int main(int argc, char* argv[]) {
 			int playerNum =	whoseTurn(game);
 			printf("Player %d's turn\n", playerNum);
 		} 
-    	}
+	}
 	
-    	return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 
 }
