@@ -1,82 +1,155 @@
-Start unittest1 for initializeGame()
-Start 2 Player test
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Start 3 Player test
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Start 4 Player test
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Hand count wrong:Expected(5),Actual(0)
-Failed Assert: Deck count wrong:Expected(5),Actual(10)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Failed Assert: Copper count:Expected(7),Actual(4)
-Failed Assert: Estate count:Expected(3),Actual(1)
-Start 5 Player test
-Start unittest2 for playCard()
-Test playCard() with a card that gives actions and cards
-Failed Assert: Discard count should increase by 1.:Expected(1),Actual(0)
-Failed Assert: Coins should stay the same.:Expected(0),Actual(5)
-Test playCard() with a card that gives buys
-Failed Assert: Discard count should increase by 1.:Expected(1),Actual(0)
-Failed Assert: Coins should stay the same.:Expected(0),Actual(8)
-Test playCard() with a card that gives coins
-Failed Assert: Discard count should increase by 1.:Expected(1),Actual(0)
-Failed Assert: Coins should increase by 2.:Expected(2),Actual(4)
-Start unittest3 for kingdomCards()
-Start unittest4 for handCard()
-Starting cardtest1
-Test when both copper on top of deck.
-Failed Assert: The copper was not added.:Expected(4),Actual(7)
-Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
-Test when both copper on the bottom of the deck.
-Failed Assert: The copper was not added.:Expected(4),Actual(7)
-Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
-Test when both copper are in the middle of the deck.
-Failed Assert: The copper was not added.:Expected(4),Actual(7)
-Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
-Test when we need to shuffle in discard pile to get the second copper.
-Failed Assert: The copper was not added.:Expected(4),Actual(7)
-Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
-Test when we only have one copper to get.
-Failed Assert: The copper was not added.:Expected(4),Actual(7)
-Failed Assert: The hand size should stay the same.:Expected(5),Actual(6)
-Starting cardtest2
-Test Council_Room for 2 players.
-Failed Assert: The council_room was not discarded.:Expected(1),Actual(0)
-Test Council_Room for 3 players.
-Failed Assert: The council_room was not discarded.:Expected(1),Actual(0)
-Test Council_Room for 4 players.
-Failed Assert: The council_room was not discarded.:Expected(1),Actual(0)
-Starting cardtest3
-Test Village card effect.
-Failed Assert: The discard size should increase by 1.:Expected(1),Actual(0)
-Starting cardtest4
-Test Great Hall card effect.
-Failed Assert: The discard size should increase by 1.:Expected(1),Actual(0)
+Starting random test for steward
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(3)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(2),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(6)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(9),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(2)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(1),Actual(2)
+Failed Assert: discardCount is wrong:Expected(0),Actual(1)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(3)
+Failed Assert: discardCount is wrong:Expected(0),Actual(16)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(2)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(2),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(15)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(7),Actual(1)
+Failed Assert: discardCount is wrong:Expected(0),Actual(6)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(2)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(9),Actual(2)
+Failed Assert: discardCount is wrong:Expected(0),Actual(6)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(3)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(5)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(1),Actual(3)
+Failed Assert: discardCount is wrong:Expected(0),Actual(9)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(9),Actual(0)
+Failed Assert: discardCount is wrong:Expected(0),Actual(10)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(1),Actual(3)
+Failed Assert: discardCount is wrong:Expected(0),Actual(18)
+Starting test for +2 cards
+Failed Assert: Player's coin count is wrong:Expected(1),Actual(3)
+Failed Assert: deckCount is wrong:Expected(5),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(2),Actual(0)
+Starting test for +2 coins
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(9),Actual(5)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(8),Actual(6)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(8),Actual(2)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(8),Actual(2)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(2)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(11),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(3)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(6),Actual(0)
+Starting test for +2 coins
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(7),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(8),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-1)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(10),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(11),Actual(1)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(9),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(10),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(7),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's buy count is wrong.:Expected(7),Actual(-1)
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-1)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(4),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(2),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(3),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-1)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(11),Actual(1)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(5),Actual(0)
+Failed Assert: handCount is wrong:Expected(0),Actual(-2)
+Starting test trash two cards
+Failed Assert: Player's coin count is wrong:Expected(7),Actual(0)
 File 'dominion.c'
-Lines executed:35.54% of 560
+Lines executed:37.14% of 560
 Creating 'dominion.c.gcov'
 
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
-        -:    0:Runs:8
-        -:    0:Programs:8
+        -:    0:Runs:9
+        -:    0:Programs:9
         -:    1:#include "dominion.h"
         -:    2:#include "dominion_helpers.h"
         -:    3:#include "rngs.h"
@@ -84,12 +157,12 @@ Creating 'dominion.c.gcov'
         -:    5:#include <math.h>
         -:    6:#include <stdlib.h>
         -:    7:
-      589:    8:int compare(const void* a, const void* b) {
-      589:    9:  if (*(int*)a > *(int*)b)
-    #####:   10:    return 1;
-      589:   11:  if (*(int*)a < *(int*)b)
-      210:   12:    return -1;
-      379:   13:  return 0;
+      606:    8:int compare(const void* a, const void* b) {
+      606:    9:  if (*(int*)a > *(int*)b)
+        8:   10:    return 1;
+      598:   11:  if (*(int*)a < *(int*)b)
+      218:   12:    return -1;
+      380:   13:  return 0;
         -:   14:}
         -:   15:
     #####:   16:struct gameState* newGame() {
@@ -155,7 +228,8 @@ Creating 'dominion.c.gcov'
         -:   76:}
         5:   77:else if (numPlayers == 3)
         -:   78:{
-        2:   79:  state->supplyCount[curse] = 20;        -:   80:}
+        2:   79:  state->supplyCount[curse] = 20;
+        -:   80:}
         -:   81:else
         -:   82:{
         3:   83:  state->supplyCount[curse] = 30;
@@ -276,75 +350,75 @@ Creating 'dominion.c.gcov'
        17:  198:return 0;
         -:  199:}
         -:  200:
-       46:  201:int shuffle(int player, struct gameState *state) {
+       48:  201:int shuffle(int player, struct gameState *state) {
         -:  202: 
         -:  203:
         -:  204:  int newDeck[MAX_DECK];
-       46:  205:  int newDeckPos = 0;
+       48:  205:  int newDeckPos = 0;
         -:  206:  int card;
         -:  207:  int i;
         -:  208:
-       46:  209:  if (state->deckCount[player] < 1)
-        3:  210:    return -1;
-       43:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+       48:  209:  if (state->deckCount[player] < 1)
+        4:  210:    return -1;
+       44:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
         -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  213:
-      508:  214:  while (state->deckCount[player] > 0) {
-      422:  215:    card = floor(Random() * state->deckCount[player]);
-      422:  216:    newDeck[newDeckPos] = state->deck[player][card];
-      422:  217:    newDeckPos++;
-     1364:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
-      942:  219:      state->deck[player][i] = state->deck[player][i+1];
+      518:  214:  while (state->deckCount[player] > 0) {
+      430:  215:    card = floor(Random() * state->deckCount[player]);
+      430:  216:    newDeck[newDeckPos] = state->deck[player][card];
+      430:  217:    newDeckPos++;
+     1391:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+      961:  219:      state->deck[player][i] = state->deck[player][i+1];
         -:  220:    }
-      422:  221:    state->deckCount[player]--;
+      430:  221:    state->deckCount[player]--;
         -:  222:  }
-      465:  223:  for (i = 0; i < newDeckPos; i++) {
-      422:  224:    state->deck[player][i] = newDeck[i];
-      422:  225:    state->deckCount[player]++;
+      474:  223:  for (i = 0; i < newDeckPos; i++) {
+      430:  224:    state->deck[player][i] = newDeck[i];
+      430:  225:    state->deckCount[player]++;
         -:  226:  }
         -:  227:
-       43:  228:  return 0;
+       44:  228:  return 0;
         -:  229:}
         -:  230:
-        3:  231:int playCard(int handPos, int choice1, int choice2, int choice3, struct gameState *state) 
+       63:  231:int playCard(int handPos, int choice1, int choice2, int choice3, struct gameState *state) 
         -:  232:{	
         -:  233:  int card;
-        3:  234:  int coin_bonus = 0; 		//tracks coins gain from actions
+       63:  234:  int coin_bonus = 0; 		//tracks coins gain from actions
         -:  235:
         -:  236:  //check if it is the right phase
-        3:  237:  if (state->phase != 0)
+       63:  237:  if (state->phase != 0)
         -:  238:  {
     #####:  239:    return -1;
         -:  240:  }
         -:  241:  
         -:  242:  //check if player has enough actions
-        3:  243:  if ( state->numActions < 1 )
+       63:  243:  if ( state->numActions < 1 )
         -:  244:  {
     #####:  245:    return -1;
         -:  246:  }
         -:  247:  
         -:  248:  //get card played
-        3:  249:  card = handCard(handPos, state);
+       63:  249:  card = handCard(handPos, state);
         -:  250:  
         -:  251:  //check if selected card is an action
-        3:  252:  if ( card < adventurer || card > treasure_map )
+       63:  252:  if ( card < adventurer || card > treasure_map )
         -:  253:  {
     #####:  254:    return -1;
         -:  255:  }
         -:  256:  
         -:  257:  //play card
-        3:  258:  if ( cardEffect(card, choice1, choice2, choice3, state, handPos, &coin_bonus) < 0 )
+       63:  258:  if ( cardEffect(card, choice1, choice2, choice3, state, handPos, &coin_bonus) < 0 )
         -:  259:  {
     #####:  260:    return -1;
         -:  261:  }
         -:  262:  
         -:  263:  //reduce number of actions
-        3:  264:  state->numActions--;
+       63:  264:  state->numActions--;
         -:  265:
         -:  266:  //update coins (Treasure cards may be added with card draws)
-        3:  267:  updateCoins(state->whoseTurn, state, coin_bonus);
+       63:  267:  updateCoins(state->whoseTurn, state, coin_bonus);
         -:  268:  
-        3:  269:  return 0;
+       63:  269:  return 0;
         -:  270:}
         -:  271:
     #####:  272:int buyCard(int supplyPos, struct gameState *state) {
@@ -390,9 +464,9 @@ Creating 'dominion.c.gcov'
     #####:  312:  return state->handCount[ whoseTurn(state) ];
         -:  313:}
         -:  314:
-       23:  315:int handCard(int handPos, struct gameState *state) {
-       23:  316:  int currentPlayer = whoseTurn(state);
-       23:  317:  return state->hand[currentPlayer][handPos];
+       83:  315:int handCard(int handPos, struct gameState *state) {
+       83:  316:  int currentPlayer = whoseTurn(state);
+       83:  317:  return state->hand[currentPlayer][handPos];
         -:  318:}
         -:  319:
     #####:  320:int supplyCount(int card, struct gameState *state) {
@@ -421,8 +495,8 @@ Creating 'dominion.c.gcov'
     #####:  343:  return count;
         -:  344:}
         -:  345:
-       36:  346:int whoseTurn(struct gameState *state) {
-       36:  347:  return state->whoseTurn;
+      156:  346:int whoseTurn(struct gameState *state) {
+      156:  347:  return state->whoseTurn;
         -:  348:}
         -:  349:
     #####:  350:int endTurn(struct gameState *state) {
@@ -600,62 +674,62 @@ Creating 'dominion.c.gcov'
     #####:  522:return 0;
         -:  523:}
         -:  524:
-      134:  525:int drawCard(int player, struct gameState *state)
+      174:  525:int drawCard(int player, struct gameState *state)
         -:  526:{	int count;
         -:  527:  int deckCounter;
-      134:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+      174:  528:  if (state->deckCount[player] <= 0){//Deck is empty
         -:  529:    
         -:  530:    //Step 1 Shuffle the discard pile back into a deck
         -:  531:    int i;
         -:  532:    //Move discard to deck
-        4:  533:    for (i = 0; i < state->discardCount[player];i++){
-        2:  534:      state->deck[player][i] = state->discard[player][i];
-        2:  535:      state->discard[player][i] = -1;
+       14:  533:    for (i = 0; i < state->discardCount[player];i++){
+       10:  534:      state->deck[player][i] = state->discard[player][i];
+       10:  535:      state->discard[player][i] = -1;
         -:  536:    }
         -:  537:
-        2:  538:    state->deckCount[player] = state->discardCount[player];
-        2:  539:    state->discardCount[player] = 0;//Reset discard
+        4:  538:    state->deckCount[player] = state->discardCount[player];
+        4:  539:    state->discardCount[player] = 0;//Reset discard
         -:  540:
         -:  541:    //Shufffle the deck
-        2:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+        4:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
         -:  543:    
         -:  544:    if (DEBUG){//Debug statements
         -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
         -:  546:    }
         -:  547:    
-        2:  548:    state->discardCount[player] = 0;
+        4:  548:    state->discardCount[player] = 0;
         -:  549:
         -:  550:    //Step 2 Draw Card
-        2:  551:    count = state->handCount[player];//Get current player's hand count
+        4:  551:    count = state->handCount[player];//Get current player's hand count
         -:  552:    
         -:  553:    if (DEBUG){//Debug statements
         -:  554:      printf("Current hand count: %d\n", count);
         -:  555:    }
         -:  556:    
-        2:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+        4:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  558:
-        2:  559:    if (deckCounter == 0)
-        1:  560:      return -1;
+        4:  559:    if (deckCounter == 0)
+        2:  560:      return -1;
         -:  561:
-        1:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-        1:  563:    state->deckCount[player]--;
-        1:  564:    state->handCount[player]++;//Increment hand count
+        2:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+        2:  563:    state->deckCount[player]--;
+        2:  564:    state->handCount[player]++;//Increment hand count
         -:  565:  }
         -:  566:
         -:  567:  else{
-      132:  568:    int count = state->handCount[player];//Get current hand count for player
+      170:  568:    int count = state->handCount[player];//Get current hand count for player
         -:  569:    int deckCounter;
         -:  570:    if (DEBUG){//Debug statements
         -:  571:      printf("Current hand count: %d\n", count);
         -:  572:    }
         -:  573:
-      132:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
-      132:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-      132:  576:    state->deckCount[player]--;
-      132:  577:    state->handCount[player]++;//Increment hand count
+      170:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      170:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      170:  576:    state->deckCount[player]--;
+      170:  577:    state->handCount[player]++;//Increment hand count
         -:  578:  }
         -:  579:
-      133:  580:  return 0;
+      172:  580:  return 0;
         -:  581:}
         -:  582:
     #####:  583:int getCost(int cardNumber)
@@ -721,23 +795,23 @@ Creating 'dominion.c.gcov'
     #####:  643:  return -1;
         -:  644:}
         -:  645:
-       13:  646:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+       73:  646:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
         -:  647:{
         -:  648:  int i;
         -:  649:  int j;
         -:  650:  int k;
         -:  651:  int index;
-       13:  652:  int currentPlayer = whoseTurn(state);
-       13:  653:  int nextPlayer = currentPlayer + 1;
+       73:  652:  int currentPlayer = whoseTurn(state);
+       73:  653:  int nextPlayer = currentPlayer + 1;
         -:  654:
-       13:  655:  int tributeRevealedCards[2] = {-1, -1};
-       13:  656:  if (nextPlayer > (state->numPlayers - 1)){
-    #####:  657:    nextPlayer = 0;
+       73:  655:  int tributeRevealedCards[2] = {-1, -1};
+       73:  656:  if (nextPlayer > (state->numPlayers - 1)){
+       21:  657:    nextPlayer = 0;
         -:  658:  }
         -:  659:  
         -:  660:  
         -:  661:  //uses switch to select card and perform actions
-       13:  662:  switch( card ) 
+       73:  662:  switch( card ) 
         -:  663:  {
         -:  664:    case adventurer:
         5:  665:    return adventurerCardEffect(state, handPos, currentPlayer);
@@ -884,27 +958,27 @@ Creating 'dominion.c.gcov'
     #####:  806:   return 0;
         -:  807:   
         -:  808:   case steward:
-        1:  809:   if (choice1 == 1)
+       61:  809:   if (choice1 == 1)
         -:  810:   {
         -:  811:	  //+2 cards
-    #####:  812:     drawCard(currentPlayer, state);
-    #####:  813:     drawCard(currentPlayer, state);
+       20:  812:     drawCard(currentPlayer, state);
+       20:  813:     drawCard(currentPlayer, state);
         -:  814:   }
-        1:  815:   else if (choice1 == 2)
+       41:  815:   else if (choice1 == 2)
         -:  816:   {
         -:  817:	  //+2 coins
-        1:  818:     state->coins = state->coins + 2;
+       21:  818:     state->coins = state->coins + 2;
         -:  819:   }
         -:  820:   else
         -:  821:   {
         -:  822:	  //trash 2 cards in hand
-    #####:  823:     discardCard(choice2, currentPlayer, state, 1);
-    #####:  824:     discardCard(choice3, currentPlayer, state, 1);
+       20:  823:     discardCard(choice2, currentPlayer, state, 1);
+       20:  824:     discardCard(choice3, currentPlayer, state, 1);
         -:  825:   }
         -:  826:   
         -:  827:      //discard card from hand
-        1:  828:   discardCard(handPos, currentPlayer, state, 0);
-        1:  829:   return 0;
+       61:  828:   discardCard(handPos, currentPlayer, state, 0);
+       61:  829:   return 0;
         -:  830:   
         -:  831:   case tribute:
     #####:  832:   if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
@@ -1334,42 +1408,42 @@ Creating 'dominion.c.gcov'
         -: 1256:}
         -: 1257:
         -: 1258:
-        8: 1259:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+      108: 1259:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
         -: 1260:{
         -: 1261:	
         -: 1262:  //if card is not trashed, added to Played pile 
-        8: 1263:  if (trashFlag < 1)
+      108: 1263:  if (trashFlag < 1)
         -: 1264:  {
         -: 1265:      //add card to played pile
-        8: 1266:    state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-        8: 1267:    state->playedCardCount++;
+       68: 1266:    state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+       68: 1267:    state->playedCardCount++;
         -: 1268:  }
         -: 1269:  
         -: 1270:  //set played card to -1
-        8: 1271:  state->hand[currentPlayer][handPos] = -1;
+      108: 1271:  state->hand[currentPlayer][handPos] = -1;
         -: 1272:  
         -: 1273:  //remove card from player's hand
-        8: 1274:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+      108: 1274:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
         -: 1275:  {
         -: 1276:      //reduce number of cards in hand
-        1: 1277:    state->handCount[currentPlayer]--;
+       12: 1277:    state->handCount[currentPlayer]--;
         -: 1278:  }
-        7: 1279:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+       96: 1279:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
         -: 1280:  {
         -: 1281:      //reduce number of cards in hand
-    #####: 1282:    state->handCount[currentPlayer]--;
+        9: 1282:    state->handCount[currentPlayer]--;
         -: 1283:  }
         -: 1284:  else 	
         -: 1285:  {
         -: 1286:      //replace discarded card with last card in hand
-        7: 1287:    state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+       87: 1287:    state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
         -: 1288:      //set last card to -1
-        7: 1289:    state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+       87: 1289:    state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
         -: 1290:      //reduce number of cards in hand
-        7: 1291:    state->handCount[currentPlayer]--;
+       87: 1291:    state->handCount[currentPlayer]--;
         -: 1292:  }
         -: 1293:  
-        8: 1294:  return 0;
+      108: 1294:  return 0;
         -: 1295:}
         -: 1296:
     #####: 1297:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
@@ -1409,34 +1483,34 @@ Creating 'dominion.c.gcov'
     #####: 1331:  return 0;
         -: 1332:}
         -: 1333:
-       20: 1334:int updateCoins(int player, struct gameState *state, int bonus)
+       80: 1334:int updateCoins(int player, struct gameState *state, int bonus)
         -: 1335:{
         -: 1336:  int i;
         -: 1337:  
         -: 1338:  //reset coin count
-       20: 1339:  state->coins = 0;
+       80: 1339:  state->coins = 0;
         -: 1340:
         -: 1341:  //add coins for each Treasure card in player's hand
-      122: 1342:  for (i = 0; i < state->handCount[player]; i++)
+      411: 1342:  for (i = 0; i < state->handCount[player]; i++)
         -: 1343:  {
-      102: 1344:    if (state->hand[player][i] == copper)
+      331: 1344:    if (state->hand[player][i] == copper)
         -: 1345:    {
-       85: 1346:     state->coins += 1;
+       93: 1346:     state->coins += 1;
         -: 1347:   }
-       17: 1348:   else if (state->hand[player][i] == silver)
+      238: 1348:   else if (state->hand[player][i] == silver)
         -: 1349:   {
-    #####: 1350:     state->coins += 2;
+        9: 1350:     state->coins += 2;
         -: 1351:   }
-       17: 1352:   else if (state->hand[player][i] == gold)
+      229: 1352:   else if (state->hand[player][i] == gold)
         -: 1353:   {
-    #####: 1354:     state->coins += 3;
+        9: 1354:     state->coins += 3;
         -: 1355:   }	
         -: 1356: }	
         -: 1357:
         -: 1358:  //add bonus
-       20: 1359: state->coins += bonus;
+       80: 1359: state->coins += bonus;
         -: 1360:
-       20: 1361: return 0;
+       80: 1361: return 0;
         -: 1362:}
         -: 1363:
         -: 1364:
