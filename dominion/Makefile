@@ -50,6 +50,14 @@ randomtestadventurer: randomtestadventurer.c randomStateGenerator.o dominion.o
 randomtestcard: randomtestcard.c randomStateGenerator.o dominion.o
 	gcc -o randomtestcard randomtestcard.c -g dominion.o rngs.o randomStateGenerator.o $(CFLAGS)
 
+testdominion: testdominion.c dominion.o
+	gcc -o testdominion testdominion.c -g dominion.o rngs.o $(CFLAGS)
+
+testdominion.out: testdominion
+	./testdominion > testdominion.out
+	gcov dominion.c >> testdominion.out
+	cat dominion.c.gcov >> testdominion.out
+
 randomtestadventurer.out: randomtestadventurer
 	./randomtestadventurer > randomtestadventurer.out
 	gcov dominion.c >> randomtestadventurer.out
@@ -87,4 +95,4 @@ unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2
 			cat dominion.c.gcov >> unittestresults.out
 
 clean:
-	rm -f *.o playdom.exe playdom test.exe test player randomStateGenerator randomtestadventurer randomtestcard unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM
+	rm -f *.o playdom.exe playdom test.exe test player testdominion randomStateGenerator randomtestadventurer randomtestcard unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4 player.exe testInit testInit.exe *.gcov *.gcda *.gcno *.so *.a *.dSYM

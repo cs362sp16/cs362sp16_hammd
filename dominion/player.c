@@ -27,6 +27,7 @@
 		initializeGame(2,k,1,&g);
 		printf ("SUCCESSFUL INIT\n");
 		getchar();
+		return -1;
 	}
 
 	int main(int argc, char* argv[]) {
