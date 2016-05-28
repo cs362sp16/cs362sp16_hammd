@@ -1,0 +1,2395 @@
+
+kingdomCard[0] = great_hall
+kingdomCard[1] = minion
+kingdomCard[2] = smithy
+kingdomCard[3] = salvager
+kingdomCard[4] = adventurer
+kingdomCard[5] = steward
+kingdomCard[6] = cutpurse
+kingdomCard[7] = tribute
+kingdomCard[8] = sea_hag
+kingdomCard[9] = baron
+The game has been initialized with the following values:
+Player count: 4
+Player 0 has 5 cards in hand, 0 cards in discard, 5 cards in deck
+Hand[0] = estate
+Hand[1] = copper
+Hand[2] = copper
+Hand[3] = copper
+Hand[4] = copper
+deck[0] = copper
+deck[1] = estate
+deck[2] = estate
+deck[3] = copper
+deck[4] = copper
+Player 1 has 0 cards in hand, 0 cards in discard, 10 cards in deck
+deck[0] = estate
+deck[1] = copper
+deck[2] = copper
+deck[3] = estate
+deck[4] = copper
+deck[5] = copper
+deck[6] = copper
+deck[7] = estate
+deck[8] = copper
+deck[9] = copper
+Player 2 has 0 cards in hand, 0 cards in discard, 10 cards in deck
+deck[0] = copper
+deck[1] = copper
+deck[2] = copper
+deck[3] = copper
+deck[4] = copper
+deck[5] = estate
+deck[6] = estate
+deck[7] = copper
+deck[8] = copper
+deck[9] = estate
+Player 3 has 0 cards in hand, 0 cards in discard, 10 cards in deck
+deck[0] = estate
+deck[1] = estate
+deck[2] = copper
+deck[3] = copper
+deck[4] = copper
+deck[5] = copper
+deck[6] = copper
+deck[7] = copper
+deck[8] = estate
+deck[9] = copper
+
+Card supply info:
+There are 30 of curse
+There are 12 of estate
+There are 12 of duchy
+There are 12 of province
+There are 32 of copper
+There are 40 of silver
+There are 30 of gold
+There are 10 of adventurer
+There are -1 of council_room
+There are -1 of feast
+There are -1 of gardens
+There are -1 of mine
+There are -1 of remodel
+There are 10 of smithy
+There are -1 of village
+There are 10 of baron
+There are 12 of great_hall
+There are 10 of minion
+There are 10 of steward
+There are 10 of tribute
+There are -1 of ambassador
+There are 10 of cutpurse
+There are -1 of embargo
+There are -1 of outpost
+There are 10 of salvager
+There are 10 of sea_hag
+
+Player 0 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (steward) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player1 has started their buy phase with 4 coins and 1 buys.
+Player 1 bought (baron) for 4 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 2 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player2 has started their buy phase with 2 coins and 1 buys.
+Player 2 bought (estate) for 2 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player3 has started their buy phase with 4 coins and 1 buys.
+Player 3 bought (smithy) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (great_hall) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (great_hall) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 5 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 5 coins, and 1 buys.
+
+Player2 has started their buy phase with 5 coins and 1 buys.
+Player 2 bought (salvager) for 4 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (great_hall) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (great_hall) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 2 coins, and 1 buys.
+salvager was played with the following choices: (choice1: 0) (choice2: -1) (choice3: -1)
+Player 2 has 0 actions, 2 coins, and 2 buys left.
+Player 2 has ended their action phase with 0 actions, 2 coins, and 2 buys.
+
+Player2 has started their buy phase with 2 coins and 2 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 1 buys left.
+Player 2 bought (estate) for 2 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player3 has started their buy phase with 4 coins and 1 buys.
+Player 3 bought (smithy) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 1 actions, 3 coins, and 1 buys left.
+steward was played with the following choices: (choice1: 3) (choice2: 2) (choice3: 3)
+Player 0 has 0 actions, 2 coins, and 1 buys left.
+Player 0 has ended their action phase with 0 actions, 2 coins, and 1 buys.
+
+Player0 has started their buy phase with 2 coins and 1 buys.
+Player 0 bought (estate) for 2 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+baron was played with the following choices: (choice1: 2) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 3 coins, and 2 buys left.
+Player 1 has ended their action phase with 0 actions, 3 coins, and 2 buys.
+
+Player1 has started their buy phase with 3 coins and 2 buys.
+Player 1 bought (great_hall) for 3 coins.
+Player 1 has 1 buys left.
+Player1 has ended their buy phase with 0 coins and 1 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player2 has started their buy phase with 4 coins and 1 buys.
+Player 2 bought (smithy) for 4 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (great_hall) for 3 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 1 actions, 4 coins, and 1 buys left.
+Player 0 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (salvager) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 1 actions, 3 coins, and 1 buys left.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 1 actions, 4 coins, and 1 buys left.
+baron was played with the following choices: (choice1: 0) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 4 coins, and 2 buys left.
+Player 1 has ended their action phase with 0 actions, 4 coins, and 2 buys.
+
+Player1 has started their buy phase with 4 coins and 2 buys.
+Player 1 bought (sea_hag) for 4 coins.
+Player 1 has 1 buys left.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (great_hall) for 3 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 5 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 5 coins, and 1 buys.
+
+Player3 has started their buy phase with 5 coins and 1 buys.
+Player 3 bought (sea_hag) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 2 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player0 has started their buy phase with 2 coins and 1 buys.
+Player 0 bought (estate) for 2 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (great_hall) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 2 coins, and 1 buys.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 2 has 0 actions, 4 coins, and 1 buys left.
+Player 2 has ended their action phase with 0 actions, 4 coins, and 1 buys.
+
+Player2 has started their buy phase with 4 coins and 1 buys.
+Player 2 bought (baron) for 4 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 2 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 1 actions, 3 coins, and 1 buys left.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 6 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 6 coins, and 1 buys.
+
+Player3 has started their buy phase with 6 coins and 1 buys.
+Player 3 bought (cutpurse) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 4 coins, and 1 buys.
+salvager was played with the following choices: (choice1: 4) (choice2: -1) (choice3: -1)
+Player 0 has 0 actions, 3 coins, and 2 buys left.
+Player 0 has ended their action phase with 0 actions, 3 coins, and 2 buys.
+
+Player0 has started their buy phase with 3 coins and 2 buys.
+Player 0 bought (estate) for 2 coins.
+Player 0 has 1 buys left.
+Player 0 bought (copper) for 0 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 2 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 1 actions, 3 coins, and 1 buys left.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (great_hall) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 2 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player2 has started their buy phase with 2 coins and 1 buys.
+Player 2 bought (estate) for 2 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 2 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 2 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 2 coins, and 1 buys.
+
+Player3 has started their buy phase with 2 coins and 1 buys.
+Player 3 bought (estate) for 2 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (sea_hag) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 0 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 0 coins, and 1 buys left.
+Player 1 has ended their action phase with 0 actions, 0 coins, and 1 buys.
+
+Player1 has started their buy phase with 0 coins and 1 buys.
+Player1 has ended their buy phase with 0 coins and 1 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 2 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player2 has started their buy phase with 2 coins and 1 buys.
+Player 2 bought (estate) for 2 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (great_hall) for 3 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 1 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player0 has started their buy phase with 1 coins and 1 buys.
+Player 0 bought (copper) for 0 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 4 coins, and 1 buys.
+baron was played with the following choices: (choice1: 2) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 4 coins, and 2 buys left.
+Player 1 has ended their action phase with 0 actions, 4 coins, and 2 buys.
+
+Player1 has started their buy phase with 4 coins and 2 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 1 buys left.
+Player 1 bought (baron) for 4 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 1 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 2 has 1 actions, 1 coins, and 1 buys left.
+Player 2 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player2 has started their buy phase with 1 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 2 coins, and 1 buys.
+cutpurse was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 2 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 2 coins, and 1 buys.
+
+Player3 has started their buy phase with 2 coins and 1 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (smithy) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 1 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 1 coins, and 1 buys left.
+Player 1 has ended their action phase with 0 actions, 1 coins, and 1 buys.
+
+Player1 has started their buy phase with 1 coins and 1 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 1 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player2 has started their buy phase with 1 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 5 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 5 coins, and 1 buys.
+
+Player3 has started their buy phase with 5 coins and 1 buys.
+Player 3 bought (salvager) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 0 actions, 3 coins, and 1 buys left.
+Player 0 has ended their action phase with 0 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (great_hall) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 1 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 1 actions, 2 coins, and 1 buys left.
+Player 1 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player1 has started their buy phase with 2 coins and 1 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 1 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player2 has started their buy phase with 1 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 2 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 1 actions, 2 coins, and 1 buys left.
+Player 3 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player3 has started their buy phase with 2 coins and 1 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (great_hall) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 1 actions, 3 coins, and 1 buys left.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (steward) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (steward) for 3 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 2 coins, and 1 buys.
+salvager was played with the following choices: (choice1: 2) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 1 coins, and 2 buys left.
+Player 3 has ended their action phase with 0 actions, 1 coins, and 2 buys.
+
+Player3 has started their buy phase with 1 coins and 2 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 1 buys left.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+great_hall was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 1 actions, 4 coins, and 1 buys left.
+Player 0 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (smithy) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 3 coins, and 1 buys left.
+Player 1 has ended their action phase with 0 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 1 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player2 has started their buy phase with 1 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (steward) for 3 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 1 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 1 coins, and 1 buys.
+
+Player0 has started their buy phase with 1 coins and 1 buys.
+Player 0 bought (copper) for 0 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 2 coins, and 1 buys.
+baron was played with the following choices: (choice1: 4) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 2 coins, and 2 buys left.
+Player 1 has ended their action phase with 0 actions, 2 coins, and 2 buys.
+
+Player1 has started their buy phase with 2 coins and 2 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 1 buys left.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player3 has started their buy phase with 4 coins and 1 buys.
+Player 3 bought (sea_hag) for 4 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (copper) for 0 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 4 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 4 coins, and 1 buys.
+
+Player1 has started their buy phase with 4 coins and 1 buys.
+Player 1 bought (baron) for 4 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 1 coins, and 1 buys.
+steward was played with the following choices: (choice1: 1) (choice2: -1) (choice3: -1)
+Player 2 has 0 actions, 2 coins, and 1 buys left.
+Player 2 has ended their action phase with 0 actions, 2 coins, and 1 buys.
+
+Player2 has started their buy phase with 2 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 1 coins, and 1 buys.
+steward was played with the following choices: (choice1: 1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 3 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 0 actions, 4 coins, and 1 buys left.
+Player 0 has ended their action phase with 0 actions, 4 coins, and 1 buys.
+
+Player0 has started their buy phase with 4 coins and 1 buys.
+Player 0 bought (smithy) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 1 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (steward) for 3 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 4 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 3 has 0 actions, 4 coins, and 1 buys left.
+Player 3 has ended their action phase with 0 actions, 4 coins, and 1 buys.
+
+Player3 has started their buy phase with 4 coins and 1 buys.
+Player 3 bought (silver) for 3 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 1 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+smithy was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 0 has 0 actions, 6 coins, and 1 buys left.
+Player 0 has ended their action phase with 0 actions, 6 coins, and 1 buys.
+
+Player0 has started their buy phase with 6 coins and 1 buys.
+Player 0 bought (baron) for 4 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 3 coins, and 1 buys.
+steward was played with the following choices: (choice1: 2) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 3 coins, and 1 buys left.
+Player 1 has ended their action phase with 0 actions, 3 coins, and 1 buys.
+
+Player1 has started their buy phase with 3 coins and 1 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (copper) for 0 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (steward) for 3 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 2 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 2 coins, and 1 buys.
+
+Player0 has started their buy phase with 2 coins and 1 buys.
+Player 0 bought (copper) for 0 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 2 coins, and 1 buys.
+baron was played with the following choices: (choice1: 4) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 2 coins, and 2 buys left.
+Player 1 has ended their action phase with 0 actions, 2 coins, and 2 buys.
+
+Player1 has started their buy phase with 2 coins and 2 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 1 buys left.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 2 coins and 0 buys remaining.
+
+Player1 has started their cleanup phase
+
+Player 2 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 2 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player2 has started their buy phase with 3 coins and 1 buys.
+Player 2 bought (silver) for 3 coins.
+Player 2 has 0 buys left.
+Player2 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player2 has started their cleanup phase
+
+Player 3 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 3 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player3 has started their buy phase with 3 coins and 1 buys.
+Player 3 bought (copper) for 0 coins.
+Player 3 has 0 buys left.
+Player3 has ended their buy phase with 3 coins and 0 buys remaining.
+
+Player3 has started their cleanup phase
+
+Player 0 has started their action phase with 1 actions, 3 coins, and 1 buys.
+Player 0 has ended their action phase with 1 actions, 3 coins, and 1 buys.
+
+Player0 has started their buy phase with 3 coins and 1 buys.
+Player 0 bought (steward) for 3 coins.
+Player 0 has 0 buys left.
+Player0 has ended their buy phase with 0 coins and 0 buys remaining.
+
+Player0 has started their cleanup phase
+
+Player 1 has started their action phase with 1 actions, 2 coins, and 1 buys.
+sea_hag was played with the following choices: (choice1: -1) (choice2: -1) (choice3: -1)
+Player 1 has 0 actions, 2 coins, and 1 buys left.
+Player 1 has ended their action phase with 0 actions, 2 coins, and 1 buys.
+
+Player1 has started their buy phase with 2 coins and 1 buys.
+Player 1 bought (copper) for 0 coins.
+Player 1 has 0 buys left.
+Player1 has ended their buy phase with 2 coins and 0 buys remaining.
+
+The game has concluded with players recieving the following scores:
+Player0:(4)
+Player1:(5)
+Player2:(6)
+Player3:(5)
+
+End game values:
+Player 0 has 0 cards in hand, 7 cards in discard, 8 cards in deck
+discard[0] = steward
+discard[1] = estate
+discard[2] = estate
+discard[3] = copper
+discard[4] = copper
+discard[5] = copper
+discard[6] = copper
+deck[0] = estate
+deck[1] = copper
+deck[2] = copper
+deck[3] = estate
+deck[4] = copper
+deck[5] = copper
+deck[6] = copper
+deck[7] = copper
+Player 1 has 5 cards in hand, 13 cards in discard, 6 cards in deck
+Hand[0] = estate
+Hand[1] = copper
+Hand[2] = copper
+Hand[3] = sea_hag
+Hand[4] = baron
+discard[0] = copper
+discard[1] = steward
+discard[2] = copper
+discard[3] = copper
+discard[4] = copper
+discard[5] = estate
+discard[6] = copper
+discard[7] = copper
+discard[8] = estate
+discard[9] = copper
+discard[10] = baron
+discard[11] = copper
+discard[12] = copper
+deck[0] = copper
+deck[1] = copper
+deck[2] = estate
+deck[3] = copper
+deck[4] = copper
+deck[5] = copper
+Player 2 has 0 cards in hand, 7 cards in discard, 8 cards in deck
+discard[0] = silver
+discard[1] = copper
+discard[2] = copper
+discard[3] = estate
+discard[4] = copper
+discard[5] = estate
+discard[6] = estate
+deck[0] = estate
+deck[1] = copper
+deck[2] = copper
+deck[3] = estate
+deck[4] = copper
+deck[5] = estate
+deck[6] = copper
+deck[7] = copper
+Player 3 has 0 cards in hand, 19 cards in discard, -3 cards in deck
+discard[0] = silver
+discard[1] = copper
+discard[2] = copper
+discard[3] = copper
+discard[4] = sea_hag
+discard[5] = copper
+discard[6] = steward
+discard[7] = estate
+discard[8] = copper
+discard[9] = estate
+discard[10] = copper
+discard[11] = copper
+discard[12] = copper
+discard[13] = copper
+discard[14] = copper
+discard[15] = copper
+discard[16] = estate
+discard[17] = estate
+discard[18] = estate
+
+Card supply info:
+There are 30 of curse
+There are 0 of estate
+There are 12 of duchy
+There are 12 of province
+There are 0 of copper
+There are 38 of silver
+There are 30 of gold
+There are 10 of adventurer
+There are -1 of council_room
+There are -1 of feast
+There are -1 of gardens
+There are -1 of mine
+There are -1 of remodel
+There are 4 of smithy
+There are -1 of village
+There are 5 of baron
+There are 0 of great_hall
+There are 10 of minion
+There are 3 of steward
+There are 10 of tribute
+There are -1 of ambassador
+There are 9 of cutpurse
+There are -1 of embargo
+There are -1 of outpost
+There are 7 of salvager
+There are 6 of sea_hag
+File 'dominion.c'
+Lines executed:54.11% of 560
+Creating 'dominion.c.gcov'
+
+        -:    0:Source:dominion.c
+        -:    0:Graph:dominion.gcno
+        -:    0:Data:dominion.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:#include "rngs.h"
+        -:    4:#include <stdio.h>
+        -:    5:#include <math.h>
+        -:    6:#include <stdlib.h>
+        -:    7:
+      773:    8:int compare(const void* a, const void* b) {
+      773:    9:  if (*(int*)a > *(int*)b)
+      182:   10:    return 1;
+      591:   11:  if (*(int*)a < *(int*)b)
+      213:   12:    return -1;
+      378:   13:  return 0;
+        -:   14:}
+        -:   15:
+    #####:   16:struct gameState* newGame() {
+    #####:   17:  struct gameState* g = malloc(sizeof(struct gameState));
+    #####:   18:  return g;
+        -:   19:}
+        -:   20:
+    #####:   21:int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
+        -:   22:  int k8, int k9, int k10) {
+    #####:   23:  int* k = malloc(10 * sizeof(int));
+    #####:   24:  k[0] = k1;
+    #####:   25:  k[1] = k2;
+    #####:   26:  k[2] = k3;
+    #####:   27:  k[3] = k4;
+    #####:   28:  k[4] = k5;
+    #####:   29:  k[5] = k6;
+    #####:   30:  k[6] = k7;
+    #####:   31:  k[7] = k8;
+    #####:   32:  k[8] = k9;
+    #####:   33:  k[9] = k10;
+    #####:   34:  return k;
+        -:   35:}
+        -:   36:
+        1:   37:int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
+        -:   38: struct gameState *state) {
+        -:   39:
+        -:   40:  int i;
+        -:   41:  int j;
+        -:   42:  int it;			
+        -:   43:  //set up random number generator
+        1:   44:  SelectStream(1);
+        1:   45:  PutSeed((long)randomSeed);
+        -:   46:  
+        -:   47:  //check number of players
+        1:   48:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
+        -:   49:  {
+    #####:   50:    return -1;
+        -:   51:  }
+        -:   52:
+        -:   53:  //set number of players
+        1:   54:  state->numPlayers = numPlayers;
+        -:   55:
+        -:   56:  //check selected kingdom cards are different
+       11:   57:  for (i = 0; i < 10; i++)
+        -:   58:  {
+      110:   59:    for (j = 0; j < 10; j++)
+        -:   60:    {
+      100:   61:     if (j != i && kingdomCards[j] == kingdomCards[i])
+        -:   62:     {
+    #####:   63:       return -1;
+        -:   64:     }
+        -:   65:   }
+        -:   66: }
+        -:   67:
+        -:   68:
+        -:   69:  //initialize supply
+        -:   70:  ///////////////////////////////
+        -:   71:
+        -:   72:  //set number of Curse cards
+        1:   73: if (numPlayers == 2)
+        -:   74: {
+    #####:   75:  state->supplyCount[curse] = 10;
+        -:   76:}
+        1:   77:else if (numPlayers == 3)
+        -:   78:{
+    #####:   79:  state->supplyCount[curse] = 20;
+        -:   80:}
+        -:   81:else
+        -:   82:{
+        1:   83:  state->supplyCount[curse] = 30;
+        -:   84:}
+        -:   85:
+        -:   86:  //set number of Victory cards
+        1:   87:if (numPlayers == 2)
+        -:   88:{
+    #####:   89:  state->supplyCount[estate] = 8;
+    #####:   90:  state->supplyCount[duchy] = 8;
+    #####:   91:  state->supplyCount[province] = 8;
+        -:   92:}
+        -:   93:else
+        -:   94:{
+        1:   95:  state->supplyCount[estate] = 12;
+        1:   96:  state->supplyCount[duchy] = 12;
+        1:   97:  state->supplyCount[province] = 12;
+        -:   98:}
+        -:   99:
+        -:  100:  //set number of Treasure cards
+        1:  101:state->supplyCount[copper] = 60 - (7 * numPlayers);
+        1:  102:state->supplyCount[silver] = 40;
+        1:  103:state->supplyCount[gold] = 30;
+        -:  104:
+        -:  105:  //set number of Kingdom cards
+       21:  106:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+        -:  107:  {
+      165:  108:      for (j = 0; j < 10; j++)           		//loop chosen cards
+        -:  109:      {
+      155:  110:       if (kingdomCards[j] == i)
+        -:  111:       {
+        -:  112:	      //check if card is a 'Victory' Kingdom card
+       10:  113:         if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+        -:  114:         {
+        2:  115:          if (numPlayers == 2){ 
+    #####:  116:            state->supplyCount[i] = 8; 
+        -:  117:          }
+        1:  118:          else{ state->supplyCount[i] = 12; }
+        -:  119:        }
+        -:  120:        else
+        -:  121:        {
+        9:  122:          state->supplyCount[i] = 10;
+        -:  123:        }
+       10:  124:        break;
+        -:  125:      }
+        -:  126:	  else    //card is not in the set choosen for the game
+        -:  127:   {
+      145:  128:     state->supplyCount[i] = -1;
+        -:  129:   }
+        -:  130: }
+        -:  131:
+        -:  132:}
+        -:  133:
+        -:  134:  ////////////////////////
+        -:  135:  //supply intilization complete
+        -:  136:
+        -:  137:  //set player decks
+        5:  138:for (i = 0; i < numPlayers; i++)
+        -:  139:{
+        4:  140:  state->deckCount[i] = 0;
+       16:  141:  for (j = 0; j < 3; j++)
+        -:  142:  {
+       12:  143:   state->deck[i][j] = estate;
+       12:  144:   state->deckCount[i]++;
+        -:  145: }
+       32:  146: for (j = 3; j < 10; j++)
+        -:  147: {
+       28:  148:   state->deck[i][j] = copper;
+       28:  149:   state->deckCount[i]++;		
+        -:  150: }
+        -:  151:}
+        -:  152:
+        -:  153:  //shuffle player decks
+        5:  154:for (i = 0; i < numPlayers; i++)
+        -:  155:{
+        4:  156:  if ( shuffle(i, state) < 0 )
+        -:  157:  {
+    #####:  158:   return -1;
+        -:  159: }
+        -:  160:}
+        -:  161:
+        -:  162:  //draw player hands
+        5:  163:for (i = 0; i < numPlayers; i++)
+        -:  164:{  
+        -:  165:      //initialize hand size to zero
+        4:  166:  state->handCount[i] = 0;
+        4:  167:  state->discardCount[i] = 0;
+        -:  168:      //draw 5 cards
+        -:  169:      // for (j = 0; j < 5; j++)
+        -:  170:      //	{
+        -:  171:      //	  drawCard(i, state);
+        -:  172:      //	}
+        -:  173:}
+        -:  174:
+        -:  175:  //set embargo tokens to 0 for all supply piles
+       28:  176:for (i = 0; i <= treasure_map; i++)
+        -:  177:{
+       27:  178:  state->embargoTokens[i] = 0;
+        -:  179:}
+        -:  180:
+        -:  181:  //initialize first player's turn
+        1:  182:state->outpostPlayed = 0;
+        1:  183:state->phase = 0;
+        1:  184:state->numActions = 1;
+        1:  185:state->numBuys = 1;
+        1:  186:state->playedCardCount = 0;
+        1:  187:state->whoseTurn = 0;
+        1:  188:state->handCount[state->whoseTurn] = 0;
+        -:  189:  //int it; move to top
+        -:  190:
+        -:  191:  //Moved draw cards to here, only drawing at the start of a turn
+        6:  192:for (it = 0; it < 5; it++){
+        5:  193:  drawCard(state->whoseTurn, state);
+        -:  194:}
+        -:  195:
+        1:  196:updateCoins(state->whoseTurn, state, 0);
+        -:  197:
+        1:  198:return 0;
+        -:  199:}
+        -:  200:
+       38:  201:int shuffle(int player, struct gameState *state) {
+        -:  202: 
+        -:  203:
+        -:  204:  int newDeck[MAX_DECK];
+       38:  205:  int newDeckPos = 0;
+        -:  206:  int card;
+        -:  207:  int i;
+        -:  208:
+       38:  209:  if (state->deckCount[player] < 1)
+    #####:  210:    return -1;
+       38:  211:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+        -:  212:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
+        -:  213:
+      539:  214:  while (state->deckCount[player] > 0) {
+      463:  215:    card = floor(Random() * state->deckCount[player]);
+      463:  216:    newDeck[newDeckPos] = state->deck[player][card];
+      463:  217:    newDeckPos++;
+     1856:  218:    for (i = card; i < state->deckCount[player]-1; i++) {
+     1393:  219:      state->deck[player][i] = state->deck[player][i+1];
+        -:  220:    }
+      463:  221:    state->deckCount[player]--;
+        -:  222:  }
+      501:  223:  for (i = 0; i < newDeckPos; i++) {
+      463:  224:    state->deck[player][i] = newDeck[i];
+      463:  225:    state->deckCount[player]++;
+        -:  226:  }
+        -:  227:
+       38:  228:  return 0;
+        -:  229:}
+        -:  230:
+       36:  231:int playCard(int handPos, int choice1, int choice2, int choice3, struct gameState *state) 
+        -:  232:{	
+        -:  233:  int card;
+       36:  234:  int coin_bonus = 0; 		//tracks coins gain from actions
+        -:  235:
+        -:  236:  //check if it is the right phase
+       36:  237:  if (state->phase != 0)
+        -:  238:  {
+    #####:  239:    return -1;
+        -:  240:  }
+        -:  241:  
+        -:  242:  //check if player has enough actions
+       36:  243:  if ( state->numActions < 1 )
+        -:  244:  {
+    #####:  245:    return -1;
+        -:  246:  }
+        -:  247:  
+        -:  248:  //get card played
+       36:  249:  card = handCard(handPos, state);
+        -:  250:  
+        -:  251:  //check if selected card is an action
+       36:  252:  if ( card < adventurer || card > treasure_map )
+        -:  253:  {
+    #####:  254:    return -1;
+        -:  255:  }
+        -:  256:  
+        -:  257:  //play card
+       36:  258:  if ( cardEffect(card, choice1, choice2, choice3, state, handPos, &coin_bonus) < 0 )
+        -:  259:  {
+    #####:  260:    return -1;
+        -:  261:  }
+        -:  262:  
+        -:  263:  //reduce number of actions
+       36:  264:  state->numActions--;
+        -:  265:
+        -:  266:  //update coins (Treasure cards may be added with card draws)
+       36:  267:  updateCoins(state->whoseTurn, state, coin_bonus);
+        -:  268:  
+       36:  269:  return 0;
+        -:  270:}
+        -:  271:
+       80:  272:int buyCard(int supplyPos, struct gameState *state) {
+        -:  273:  int who;
+        -:  274:  if (DEBUG){
+        -:  275:    printf("Entering buyCard...\n");
+        -:  276:  }
+        -:  277:
+        -:  278:  // I don't know what to do about the phase thing.
+        -:  279:
+       80:  280:  who = state->whoseTurn;
+        -:  281:
+       80:  282:  if (state->numBuys < 1){
+        -:  283:    if (DEBUG)
+        -:  284:      printf("You do not have any buys left\n");
+    #####:  285:    return -1;
+       80:  286:  } else if (supplyCount(supplyPos, state) <1){
+        -:  287:    if (DEBUG)
+        -:  288:      printf("There are not any of that type of card left\n");
+    #####:  289:    return -1;
+       80:  290:  } else if (state->coins < getCost(supplyPos)){
+        -:  291:    if (DEBUG) 
+        -:  292:      printf("You do not have enough money to buy that. You have %d coins.\n", state->coins);
+    #####:  293:    return -1;
+        -:  294:  } else {
+       80:  295:    state->phase=1;
+        -:  296:    //state->supplyCount[supplyPos]--;
+       80:  297:    gainCard(supplyPos, state, 0, who); //card goes in discard, this might be wrong.. (2 means goes into hand, 0 goes into discard)
+        -:  298:    
+       80:  299:    state->coins = (state->coins) - (getCost(supplyPos));
+       80:  300:    state->numBuys--;
+        -:  301:    if (DEBUG)
+        -:  302:      printf("You bought card number %d for %d coins. You now have %d buys and %d coins.\n", supplyPos, getCost(supplyPos), state->numBuys, state->coins);
+        -:  303:  }
+        -:  304:
+        -:  305:  //state->discard[who][state->discardCount[who]] = supplyPos;
+        -:  306:  //state->discardCount[who]++;
+        -:  307:  
+       80:  308:  return 0;
+        -:  309:}
+        -:  310:
+    #####:  311:int numHandCards(struct gameState *state) {
+    #####:  312:  return state->handCount[ whoseTurn(state) ];
+        -:  313:}
+        -:  314:
+       38:  315:int handCard(int handPos, struct gameState *state) {
+       38:  316:  int currentPlayer = whoseTurn(state);
+       38:  317:  return state->hand[currentPlayer][handPos];
+        -:  318:}
+        -:  319:
+      166:  320:int supplyCount(int card, struct gameState *state) {
+      166:  321:  return state->supplyCount[card];
+        -:  322:}
+        -:  323:
+    #####:  324:int fullDeckCount(int player, int card, struct gameState *state) {
+        -:  325:  int i;
+    #####:  326:  int count = 0;
+        -:  327:
+    #####:  328:  for (i = 0; i < state->deckCount[player]; i++)
+        -:  329:  {
+    #####:  330:    if (state->deck[player][i] == card) count++;
+        -:  331:  }
+        -:  332:
+    #####:  333:  for (i = 0; i < state->handCount[player]; i++)
+        -:  334:  {
+    #####:  335:    if (state->hand[player][i] == card) count++;
+        -:  336:  }
+        -:  337:
+    #####:  338:  for (i = 0; i < state->discardCount[player]; i++)
+        -:  339:  {
+    #####:  340:    if (state->discard[player][i] == card) count++;
+        -:  341:  }
+        -:  342:
+    #####:  343:  return count;
+        -:  344:}
+        -:  345:
+     1261:  346:int whoseTurn(struct gameState *state) {
+     1261:  347:  return state->whoseTurn;
+        -:  348:}
+        -:  349:
+       73:  350:int endTurn(struct gameState *state) {
+        -:  351:  int k;
+        -:  352:  int i;
+       73:  353:  int currentPlayer = whoseTurn(state);
+        -:  354:  
+        -:  355:  //Discard hand
+      439:  356:  for (i = 0; i < state->handCount[currentPlayer]; i++){
+      366:  357:    state->discard[currentPlayer][state->discardCount[currentPlayer]++] = state->hand[currentPlayer][i];//Discard
+      366:  358:    state->hand[currentPlayer][i] = -1;//Set card to -1
+        -:  359:  }
+       73:  360:  state->handCount[currentPlayer] = 0;//Reset hand count
+        -:  361:  
+        -:  362:  //Code for determining the player
+       73:  363:  if (currentPlayer < (state->numPlayers - 1)){ 
+       55:  364:    state->whoseTurn = currentPlayer + 1;//Still safe to increment
+        -:  365:  }
+        -:  366:  else{
+       18:  367:    state->whoseTurn = 0;//Max player has been reached, loop back around to player 1
+        -:  368:  }
+        -:  369:
+       73:  370:  state->outpostPlayed = 0;
+       73:  371:  state->phase = 0;
+       73:  372:  state->numActions = 1;
+       73:  373:  state->coins = 0;
+       73:  374:  state->numBuys = 1;
+       73:  375:  state->playedCardCount = 0;
+       73:  376:  state->handCount[state->whoseTurn] = 0;
+        -:  377:
+        -:  378:  //int k; move to top
+        -:  379:  //Next player draws hand
+      438:  380:  for (k = 0; k < 5; k++){
+      365:  381:    drawCard(state->whoseTurn, state);//Draw a card
+        -:  382:  }
+        -:  383:
+        -:  384:  //Update money
+       73:  385:  updateCoins(state->whoseTurn, state , 0);
+        -:  386:
+       73:  387:  return 0;
+        -:  388:}
+        -:  389:
+      168:  390:int isGameOver(struct gameState *state) {
+        -:  391:  int i;
+        -:  392:  int j;
+        -:  393:  
+        -:  394:  //if stack of Province cards is empty, the game ends
+      168:  395:  if (state->supplyCount[province] == 0)
+        -:  396:  {
+    #####:  397:    return 1;
+        -:  398:  }
+        -:  399:
+        -:  400:  //if three supply pile are at 0, the game ends
+      168:  401:  j = 0;
+     4368:  402:  for (i = 0; i < 25; i++)
+        -:  403:  {
+     4200:  404:    if (state->supplyCount[i] == 0)
+        -:  405:    {
+      157:  406:     j++;
+        -:  407:   }
+        -:  408: }
+      168:  409: if ( j >= 3)
+        -:  410: {
+        1:  411:  return 1;
+        -:  412:}
+        -:  413:
+      167:  414:return 0;
+        -:  415:}
+        -:  416:
+        4:  417:int scoreFor (int player, struct gameState *state) {
+        -:  418:
+        -:  419:  int i;
+        4:  420:  int score = 0;
+        -:  421:  //score from hand
+        9:  422:  for (i = 0; i < state->handCount[player]; i++)
+        -:  423:  {
+        5:  424:    if (state->hand[player][i] == curse) { score = score - 1; };
+        5:  425:    if (state->hand[player][i] == estate) { score = score + 1; };
+        5:  426:    if (state->hand[player][i] == duchy) { score = score + 3; };
+        5:  427:    if (state->hand[player][i] == province) { score = score + 6; };
+        5:  428:    if (state->hand[player][i] == great_hall) { score = score + 1; };
+        5:  429:    if (state->hand[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+        -:  430:  }
+        -:  431:
+        -:  432:  //score from discard
+       50:  433:  for (i = 0; i < state->discardCount[player]; i++)
+        -:  434:  {
+       46:  435:    if (state->discard[player][i] == curse) { score = score - 1; };
+       46:  436:    if (state->discard[player][i] == estate) { score = score + 1; };
+       46:  437:    if (state->discard[player][i] == duchy) { score = score + 3; };
+       46:  438:    if (state->discard[player][i] == province) { score = score + 6; };
+       46:  439:    if (state->discard[player][i] == great_hall) { score = score + 1; };
+       46:  440:    if (state->discard[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+        -:  441:  }
+        -:  442:
+        -:  443:  //score from deck
+       50:  444:  for (i = 0; i < state->discardCount[player]; i++)
+        -:  445:  {
+       46:  446:    if (state->deck[player][i] == curse) { score = score - 1; };
+       46:  447:    if (state->deck[player][i] == estate) { score = score + 1; };
+       46:  448:    if (state->deck[player][i] == duchy) { score = score + 3; };
+       46:  449:    if (state->deck[player][i] == province) { score = score + 6; };
+       46:  450:    if (state->deck[player][i] == great_hall) { score = score + 1; };
+       46:  451:    if (state->deck[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+        -:  452:  }
+        -:  453:
+        4:  454:  return score;
+        -:  455:}
+        -:  456:
+    #####:  457:int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
+        -:  458:  int i;	
+        -:  459:  int j;
+        -:  460:  int highScore;
+        -:  461:  int currentPlayer;
+        -:  462:
+        -:  463:  //get score for each player
+    #####:  464:  for (i = 0; i < MAX_PLAYERS; i++)
+        -:  465:  {
+        -:  466:      //set unused player scores to -9999
+    #####:  467:    if (i >= state->numPlayers)
+        -:  468:    {
+    #####:  469:     players[i] = -9999;
+        -:  470:   }
+        -:  471:   else
+        -:  472:   {
+    #####:  473:     players[i] = scoreFor (i, state);
+        -:  474:   }
+        -:  475: }
+        -:  476:
+        -:  477:  //find highest score
+    #####:  478: j = 0;
+    #####:  479: for (i = 0; i < MAX_PLAYERS; i++)
+        -:  480: {
+    #####:  481:  if (players[i] > players[j])
+        -:  482:  {
+    #####:  483:   j = i;
+        -:  484: }
+        -:  485:}
+    #####:  486:highScore = players[j];
+        -:  487:
+        -:  488:  //add 1 to players who had less turns
+    #####:  489:currentPlayer = whoseTurn(state);
+    #####:  490:for (i = 0; i < MAX_PLAYERS; i++)
+        -:  491:{
+    #####:  492:  if ( players[i] == highScore && i > currentPlayer )
+        -:  493:  {
+    #####:  494:   players[i]++;
+        -:  495: }
+        -:  496:}
+        -:  497:
+        -:  498:  //find new highest score
+    #####:  499:j = 0;
+    #####:  500:for (i = 0; i < MAX_PLAYERS; i++)
+        -:  501:{
+    #####:  502:  if ( players[i] > players[j] )
+        -:  503:  {
+    #####:  504:   j = i;
+        -:  505: }
+        -:  506:}
+    #####:  507:highScore = players[j];
+        -:  508:
+        -:  509:  //set winners in array to 1 and rest to 0
+    #####:  510:for (i = 0; i < MAX_PLAYERS; i++)
+        -:  511:{
+    #####:  512:  if ( players[i] == highScore )
+        -:  513:  {
+    #####:  514:   players[i] = 1;
+        -:  515: }
+        -:  516: else
+        -:  517: {
+    #####:  518:   players[i] = 0;
+        -:  519: }
+        -:  520:}
+        -:  521:
+    #####:  522:return 0;
+        -:  523:}
+        -:  524:
+      403:  525:int drawCard(int player, struct gameState *state)
+        -:  526:{	int count;
+        -:  527:  int deckCounter;
+      403:  528:  if (state->deckCount[player] <= 0){//Deck is empty
+        -:  529:    
+        -:  530:    //Step 1 Shuffle the discard pile back into a deck
+        -:  531:    int i;
+        -:  532:    //Move discard to deck
+      457:  533:    for (i = 0; i < state->discardCount[player];i++){
+      423:  534:      state->deck[player][i] = state->discard[player][i];
+      423:  535:      state->discard[player][i] = -1;
+        -:  536:    }
+        -:  537:
+       34:  538:    state->deckCount[player] = state->discardCount[player];
+       34:  539:    state->discardCount[player] = 0;//Reset discard
+        -:  540:
+        -:  541:    //Shufffle the deck
+       34:  542:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+        -:  543:    
+        -:  544:    if (DEBUG){//Debug statements
+        -:  545:      printf("Deck count now: %d\n", state->deckCount[player]);
+        -:  546:    }
+        -:  547:    
+       34:  548:    state->discardCount[player] = 0;
+        -:  549:
+        -:  550:    //Step 2 Draw Card
+       34:  551:    count = state->handCount[player];//Get current player's hand count
+        -:  552:    
+        -:  553:    if (DEBUG){//Debug statements
+        -:  554:      printf("Current hand count: %d\n", count);
+        -:  555:    }
+        -:  556:    
+       34:  557:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+        -:  558:
+       34:  559:    if (deckCounter == 0)
+    #####:  560:      return -1;
+        -:  561:
+       34:  562:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+       34:  563:    state->deckCount[player]--;
+       34:  564:    state->handCount[player]++;//Increment hand count
+        -:  565:  }
+        -:  566:
+        -:  567:  else{
+      369:  568:    int count = state->handCount[player];//Get current hand count for player
+        -:  569:    int deckCounter;
+        -:  570:    if (DEBUG){//Debug statements
+        -:  571:      printf("Current hand count: %d\n", count);
+        -:  572:    }
+        -:  573:
+      369:  574:    deckCounter = state->deckCount[player];//Create holder for the deck count
+      369:  575:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+      369:  576:    state->deckCount[player]--;
+      369:  577:    state->handCount[player]++;//Increment hand count
+        -:  578:  }
+        -:  579:
+      403:  580:  return 0;
+        -:  581:}
+        -:  582:
+      719:  583:int getCost(int cardNumber)
+        -:  584:{
+      719:  585:  switch( cardNumber ) 
+        -:  586:  {
+        -:  587:    case curse:
+    #####:  588:    return 0;
+        -:  589:    case estate:
+       51:  590:    return 2;
+        -:  591:    case duchy:
+       30:  592:    return 5;
+        -:  593:    case province:
+       32:  594:    return 8;
+        -:  595:    case copper:
+       98:  596:    return 0;
+        -:  597:    case silver:
+        9:  598:    return 3;
+        -:  599:    case gold:
+        4:  600:    return 6;
+        -:  601:    case adventurer:
+        5:  602:    return 6;
+        -:  603:    case council_room:
+        7:  604:    return 5;
+        -:  605:    case feast:
+        9:  606:    return 4;
+        -:  607:    case gardens:
+       13:  608:    return 4;
+        -:  609:    case mine:
+       16:  610:    return 5;
+        -:  611:    case remodel:
+       18:  612:    return 4;
+        -:  613:    case smithy:
+       34:  614:    return 4;
+        -:  615:    case village:
+       23:  616:    return 3;
+        -:  617:    case baron:
+       38:  618:    return 4;
+        -:  619:    case great_hall:
+       52:  620:    return 3;
+        -:  621:    case minion:
+       19:  622:    return 5;
+        -:  623:    case steward:
+       34:  624:    return 3;
+        -:  625:    case tribute:
+       15:  626:    return 5;
+        -:  627:    case ambassador:
+       20:  628:    return 3;
+        -:  629:    case cutpurse:
+       28:  630:    return 4;
+        -:  631:    case embargo: 
+       25:  632:    return 2;
+        -:  633:    case outpost:
+       28:  634:    return 5;
+        -:  635:    case salvager:
+       38:  636:    return 4;
+        -:  637:    case sea_hag:
+       41:  638:    return 4;
+        -:  639:    case treasure_map:
+       32:  640:    return 4;
+        -:  641:  }
+        -:  642:  
+    #####:  643:  return -1;
+        -:  644:}
+        -:  645:
+       36:  646:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+        -:  647:{
+        -:  648:  int i;
+        -:  649:  int j;
+        -:  650:  int k;
+        -:  651:  int index;
+       36:  652:  int currentPlayer = whoseTurn(state);
+       36:  653:  int nextPlayer = currentPlayer + 1;
+        -:  654:
+       36:  655:  int tributeRevealedCards[2] = {-1, -1};
+       36:  656:  if (nextPlayer > (state->numPlayers - 1)){
+        9:  657:    nextPlayer = 0;
+        -:  658:  }
+        -:  659:  
+        -:  660:  
+        -:  661:  //uses switch to select card and perform actions
+       36:  662:  switch( card ) 
+        -:  663:  {
+        -:  664:    case adventurer:
+    #####:  665:    return adventurerCardEffect(state, handPos, currentPlayer);
+        -:  666:    
+        -:  667:    case council_room:
+    #####:  668:    return council_roomCardEffect(state, handPos, currentPlayer);
+        -:  669:    
+        -:  670:    case feast:
+    #####:  671:    return feastCardEffect(state, handPos, currentPlayer, choice1);
+        -:  672:    
+        -:  673:    case gardens:
+    #####:  674:    return -1;
+        -:  675:    
+        -:  676:    case mine:
+    #####:  677:    return mineCardEffect(state, handPos, currentPlayer, choice1, choice2);
+        -:  678:    
+        -:  679:    case remodel:
+    #####:  680:    return remodelCardEffect(state, handPos, currentPlayer, choice1, choice2);
+        -:  681:    
+        -:  682:    case smithy:
+        6:  683:    return smithyCardEffect(state, handPos, currentPlayer);
+        -:  684:    
+        -:  685:    case village:
+        -:  686:      //+1 Card
+    #####:  687:    drawCard(currentPlayer, state);
+        -:  688:    
+        -:  689:      //+2 Actions
+    #####:  690:    state->numActions = state->numActions + 2;
+        -:  691:    
+        -:  692:      //discard played card from hand
+    #####:  693:    discardCard(handPos, currentPlayer, state, 0);
+    #####:  694:    return 0;
+        -:  695:    
+        -:  696:    case baron:
+        5:  697:      state->numBuys++;//Increase buys by 1!
+        5:  698:      if (choice1 > 0){//Boolean true or going to discard an estate
+        4:  699:      	int p = 0;//Iterator for hand!
+        4:  700:      	int card_not_discarded = 1;//Flag for discard set!
+       22:  701:      	while(card_not_discarded){
+       14:  702:      	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+        3:  703:      	    state->coins += 4;//Add 4 coins to the amount of coins
+        3:  704:      	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+        3:  705:      	    state->discardCount[currentPlayer]++;
+       14:  706:      	    for (;p < state->handCount[currentPlayer]; p++){
+       11:  707:             state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+        -:  708:           }
+        3:  709:           state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+        3:  710:           state->handCount[currentPlayer]--;
+        3:  711:      	    card_not_discarded = 0;//Exit the loop
+        -:  712:      	  }
+       11:  713:         else if (p > state->handCount[currentPlayer]){
+        -:  714:           if(DEBUG) {
+        -:  715:             printf("No estate cards in your hand, invalid choice\n");
+        -:  716:             printf("Must gain an estate if there are any\n");
+        -:  717:           }
+        1:  718:           if (supplyCount(estate, state) > 0){
+        1:  719:             gainCard(estate, state, 0, currentPlayer);
+        1:  720:  	          state->supplyCount[estate]--;//Decrement estates
+        1:  721:  	          if (supplyCount(estate, state) == 0){
+        1:  722:                isGameOver(state);
+        -:  723:              }
+        -:  724:            }
+        1:  725:	          card_not_discarded = 0;//Exit the loop
+        -:  726:	        }
+        -:  727:         
+        -:  728:         else{
+       10:  729:    	      p++;//Next card
+        -:  730:    	    }
+        -:  731:    	  }
+        -:  732:      }
+        -:  733:      else{
+        1:  734:       if (supplyCount(estate, state) > 0){
+        1:  735:	        gainCard(estate, state, 0, currentPlayer);//Gain an estate
+        1:  736:	        state->supplyCount[estate]--;//Decrement Estates
+        1:  737:	        if (supplyCount(estate, state) == 0){
+    #####:  738:           isGameOver(state);
+        -:  739:         }
+        -:  740:       }
+        -:  741:     }
+        -:  742:     
+        -:  743:     
+        5:  744:     return 0;
+        -:  745:     
+        -:  746:     case great_hall:
+        -:  747:      //+1 Card
+       11:  748:     drawCard(currentPlayer, state);
+        -:  749:     
+        -:  750:      //+1 Actions
+       11:  751:     state->numActions++;
+        -:  752:     
+        -:  753:      //discard card from hand
+       11:  754:     discardCard(handPos, currentPlayer, state, 0);
+       11:  755:     return 0;
+        -:  756:     
+        -:  757:     case minion:
+        -:  758:      //+1 action
+    #####:  759:     state->numActions++;
+        -:  760:     
+        -:  761:      //discard card from hand
+    #####:  762:     discardCard(handPos, currentPlayer, state, 0);
+        -:  763:     
+    #####:  764:      if (choice1)		//+2 coins
+        -:  765:      {
+    #####:  766:       state->coins = state->coins + 2;
+        -:  767:     }
+        -:  768:     
+    #####:  769:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
+        -:  770:      {
+        -:  771:	  //discard hand
+    #####:  772:       while(numHandCards(state) > 0)
+        -:  773:       {
+    #####:  774:         discardCard(handPos, currentPlayer, state, 0);
+        -:  775:       }
+        -:  776:       
+        -:  777:	  //draw 4
+    #####:  778:       for (i = 0; i < 4; i++)
+        -:  779:       {
+    #####:  780:         drawCard(currentPlayer, state);
+        -:  781:       }
+        -:  782:       
+        -:  783:	  //other players discard hand and redraw if hand size > 4
+    #####:  784:       for (i = 0; i < state->numPlayers; i++)
+        -:  785:       {
+    #####:  786:         if (i != currentPlayer)
+        -:  787:         {
+    #####:  788:          if ( state->handCount[i] > 4 )
+        -:  789:          {
+        -:  790:		      //discard hand
+    #####:  791:            while( state->handCount[i] > 0 )
+        -:  792:            {
+    #####:  793:             discardCard(handPos, i, state, 0);
+        -:  794:           }
+        -:  795:           
+        -:  796:		      //draw 4
+    #####:  797:           for (j = 0; j < 4; j++)
+        -:  798:           {
+    #####:  799:             drawCard(i, state);
+        -:  800:           }
+        -:  801:         }
+        -:  802:       }
+        -:  803:     }
+        -:  804:     
+        -:  805:   }
+    #####:  806:   return 0;
+        -:  807:   
+        -:  808:   case steward:
+        4:  809:   if (choice1 == 1)
+        -:  810:   {
+        -:  811:	  //+2 cards
+        2:  812:     drawCard(currentPlayer, state);
+        2:  813:     drawCard(currentPlayer, state);
+        -:  814:   }
+        2:  815:   else if (choice1 == 2)
+        -:  816:   {
+        -:  817:	  //+2 coins
+        1:  818:     state->coins = state->coins + 2;
+        -:  819:   }
+        -:  820:   else
+        -:  821:   {
+        -:  822:	  //trash 2 cards in hand
+        1:  823:     discardCard(choice2, currentPlayer, state, 1);
+        1:  824:     discardCard(choice3, currentPlayer, state, 1);
+        -:  825:   }
+        -:  826:   
+        -:  827:      //discard card from hand
+        4:  828:   discardCard(handPos, currentPlayer, state, 0);
+        4:  829:   return 0;
+        -:  830:   
+        -:  831:   case tribute:
+    #####:  832:   if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
+    #####:  833:     if (state->deckCount[nextPlayer] > 0){
+    #####:  834:       tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  835:       state->deckCount[nextPlayer]--;
+        -:  836:     }
+    #####:  837:     else if (state->discardCount[nextPlayer] > 0){
+    #####:  838:       tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
+    #####:  839:       state->discardCount[nextPlayer]--;
+        -:  840:     }
+        -:  841:     else{
+        -:  842:	  //No Card to Reveal
+        -:  843:       if (DEBUG){
+        -:  844:         printf("No cards to reveal\n");
+        -:  845:       }
+        -:  846:     }
+        -:  847:   }
+        -:  848:   
+        -:  849:   else{
+    #####:  850:     if (state->deckCount[nextPlayer] == 0){
+    #####:  851:       for (i = 0; i < state->discardCount[nextPlayer]; i++){
+    #####:  852:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
+    #####:  853:	    state->deckCount[nextPlayer]++;
+    #####:  854:	    state->discard[nextPlayer][i] = -1;
+    #####:  855:	    state->discardCount[nextPlayer]--;
+        -:  856:	  }
+        -:  857:   
+    #####:  858:	  shuffle(nextPlayer,state);//Shuffle the deck
+        -:  859:	} 
+    #####:  860:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  861:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####:  862:	state->deckCount[nextPlayer]--;
+    #####:  863:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  864:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####:  865:	state->deckCount[nextPlayer]--;
+        -:  866:}    
+        -:  867:
+    #####:  868:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+    #####:  869:       state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
+    #####:  870:       state->playedCardCount++;
+    #####:  871:       tributeRevealedCards[1] = -1;
+        -:  872:     }
+        -:  873:
+    #####:  874:     for (i = 0; i <= 2; i ++){
+    #####:  875:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
+    #####:  876:   state->coins += 2;
+        -:  877: }
+        -:  878: 
+    #####:  879:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
+    #####:  880:   drawCard(currentPlayer, state);
+    #####:  881:   drawCard(currentPlayer, state);
+        -:  882: }
+        -:  883:	else{//Action Card
+    #####:  884:   state->numActions = state->numActions + 2;
+        -:  885: }
+        -:  886:}
+        -:  887:
+    #####:  888:return 0;
+        -:  889:
+        -:  890:case ambassador:
+    #####:  891:      j = 0;		//used to check if player has enough cards to discard
+        -:  892:
+    #####:  893:      if (choice2 > 2 || choice2 < 0)
+        -:  894:      {
+    #####:  895:       return -1;				
+        -:  896:     }
+        -:  897:
+    #####:  898:     if (choice1 == handPos)
+        -:  899:     {
+    #####:  900:       return -1;
+        -:  901:     }
+        -:  902:
+    #####:  903:     for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -:  904:     {
+    #####:  905:       if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
+        -:  906:       {
+    #####:  907:         j++;
+        -:  908:       }
+        -:  909:     }
+    #####:  910:     if (j < choice2)
+        -:  911:     {
+    #####:  912:       return -1;				
+        -:  913:     }
+        -:  914:
+        -:  915:     if (DEBUG) 
+        -:  916:       printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
+        -:  917:
+        -:  918:      //increase supply count for choosen card by amount being discarded
+    #####:  919:     state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
+        -:  920:     
+        -:  921:      //each other player gains a copy of revealed card
+    #####:  922:     for (i = 0; i < state->numPlayers; i++)
+        -:  923:     {
+    #####:  924:       if (i != currentPlayer)
+        -:  925:       {
+    #####:  926:         gainCard(state->hand[currentPlayer][choice1], state, 0, i);
+        -:  927:       }
+        -:  928:     }
+        -:  929:
+        -:  930:      //discard played card from hand
+    #####:  931:     discardCard(handPos, currentPlayer, state, 0);			
+        -:  932:
+        -:  933:      //trash copies of cards returned to supply
+    #####:  934:     for (j = 0; j < choice2; j++)
+        -:  935:     {
+    #####:  936:       for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -:  937:       {
+    #####:  938:         if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
+        -:  939:         {
+    #####:  940:          discardCard(i, currentPlayer, state, 1);
+    #####:  941:          break;
+        -:  942:        }
+        -:  943:      }
+        -:  944:    }			
+        -:  945:
+    #####:  946:    return 0;
+        -:  947:    
+        -:  948:    case cutpurse:
+        -:  949:
+        1:  950:    updateCoins(currentPlayer, state, 2);
+        5:  951:    for (i = 0; i < state->numPlayers; i++)
+        -:  952:    {
+        4:  953:     if (i != currentPlayer)
+        -:  954:     {
+        3:  955:       for (j = 0; j < state->handCount[i]; j++)
+        -:  956:       {
+    #####:  957:        if (state->hand[i][j] == copper)
+        -:  958:        {
+    #####:  959:          discardCard(j, i, state, 0);
+    #####:  960:          break;
+        -:  961:        }
+    #####:  962:        if (j == state->handCount[i])
+        -:  963:        {
+    #####:  964:          for (k = 0; k < state->handCount[i]; k++)
+        -:  965:          {
+        -:  966:           if (DEBUG)
+        -:  967:             printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
+        -:  968:         }	
+    #####:  969:         break;
+        -:  970:       }		
+        -:  971:     }
+        -:  972:     
+        -:  973:   }
+        -:  974:   
+        -:  975: }				
+        -:  976:
+        -:  977:      //discard played card from hand
+        1:  978: discardCard(handPos, currentPlayer, state, 0);			
+        -:  979:
+        1:  980: return 0;
+        -:  981:
+        -:  982: 
+        -:  983: case embargo: 
+        -:  984:      //+2 Coins
+    #####:  985: state->coins = state->coins + 2;
+        -:  986: 
+        -:  987:      //see if selected pile is in play
+    #####:  988: if ( state->supplyCount[choice1] == -1 )
+        -:  989: {
+    #####:  990:   return -1;
+        -:  991: }
+        -:  992: 
+        -:  993:      //add embargo token to selected supply pile
+    #####:  994: state->embargoTokens[choice1]++;
+        -:  995: 
+        -:  996:      //trash card
+    #####:  997: discardCard(handPos, currentPlayer, state, 1);		
+    #####:  998: return 0;
+        -:  999: 
+        -: 1000: case outpost:
+        -: 1001:      //set outpost flag
+    #####: 1002: state->outpostPlayed++;
+        -: 1003: 
+        -: 1004:      //discard card
+    #####: 1005: discardCard(handPos, currentPlayer, state, 0);
+    #####: 1006: return 0;
+        -: 1007: 
+        -: 1008: case salvager:
+        -: 1009:      //+1 buy
+        3: 1010: state->numBuys++;
+        -: 1011: 
+        3: 1012: if (choice1)
+        -: 1013: {
+        -: 1014:	  //gain coins equal to trashed card
+        2: 1015:   state->coins = state->coins + getCost( handCard(choice1, state) );
+        -: 1016:	  //trash card
+        2: 1017:   discardCard(choice1, currentPlayer, state, 1);	
+        -: 1018: }
+        -: 1019: 
+        -: 1020:      //discard card
+        3: 1021: discardCard(handPos, currentPlayer, state, 0);
+        3: 1022: return 0;
+        -: 1023: 
+        -: 1024: case sea_hag:
+       30: 1025: for (i = 0; i < state->numPlayers; i++){
+       24: 1026:   if (i != currentPlayer){
+       18: 1027:     state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+       18: 1028:     state->discardCount[i]++;
+       18: 1029:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+        -: 1030:	}
+        -: 1031:}
+        6: 1032:return 0;
+        -: 1033:
+        -: 1034:case treasure_map:
+        -: 1035:      //search hand for another treasure_map
+    #####: 1036:index = -1;
+    #####: 1037:for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1038:{
+    #####: 1039: if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
+        -: 1040: {
+    #####: 1041:   index = i;
+    #####: 1042:   break;
+        -: 1043: }
+        -: 1044:}
+    #####: 1045:if (index > -1)
+        -: 1046:{
+        -: 1047:	  //trash both treasure cards
+    #####: 1048: discardCard(handPos, currentPlayer, state, 1);
+    #####: 1049: discardCard(index, currentPlayer, state, 1);
+        -: 1050:
+        -: 1051:	  //gain 4 Gold cards
+    #####: 1052: for (i = 0; i < 4; i++)
+        -: 1053: {
+    #####: 1054:   gainCard(gold, state, 1, currentPlayer);
+        -: 1055: }
+        -: 1056: 
+        -: 1057:	  //return success
+    #####: 1058: return 1;
+        -: 1059:}
+        -: 1060:
+        -: 1061:      //no second treasure_map found in hand
+    #####: 1062:return -1;
+        -: 1063:}
+        -: 1064:
+    #####: 1065:return -1;
+        -: 1066:}
+        -: 1067:
+    #####: 1068:int adventurerCardEffect(struct gameState *state, int handPos, int currentPlayer){
+        -: 1069:  int temphand[MAX_HAND];// moved above the if statement
+    #####: 1070:  int drawntreasure=0;
+        -: 1071:  int cardDrawn;
+    #####: 1072:  int z = 1;// this is the counter for the temp hand
+        -: 1073:
+    #####: 1074:  while(drawntreasure<2){
+    #####: 1075:    if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
+    #####: 1076:      shuffle(currentPlayer, state);
+        -: 1077:    }
+    #####: 1078:    drawCard(currentPlayer, state);
+    #####: 1079:    cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+    #####: 1080:    if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+    #####: 1081:      drawntreasure++;
+        -: 1082:    else{
+    #####: 1083:      temphand[z]=cardDrawn;
+    #####: 1084:      state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+    #####: 1085:      z++;
+        -: 1086:    }
+        -: 1087:  }
+    #####: 1088:  while(z-1>=0){
+    #####: 1089:    state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+    #####: 1090:    z=z-1;
+        -: 1091:  }
+    #####: 1092:  return 0;
+        -: 1093:}
+        -: 1094:
+    #####: 1095:int council_roomCardEffect(struct gameState *state, int handPos, int currentPlayer){
+        -: 1096:  int i;
+        -: 1097:  //+4 Cards
+    #####: 1098:  for (i = 0; i < 4; i++)
+        -: 1099:  {
+    #####: 1100:    drawCard(currentPlayer, state);
+        -: 1101:  }
+        -: 1102:  
+        -: 1103:  //+1 Buy
+    #####: 1104:  state->numBuys++;
+        -: 1105:  
+        -: 1106:  //Each other player draws a card
+    #####: 1107:  for (i = 0; i < state->numPlayers; i++)
+        -: 1108:  {
+    #####: 1109:    if ( i != currentPlayer )
+        -: 1110:    {
+    #####: 1111:      drawCard(i, state);
+        -: 1112:    }
+        -: 1113:  }
+        -: 1114:  
+        -: 1115:  //put played card in played card pile
+    #####: 1116:  discardCard(handPos, currentPlayer, state, 0);
+        -: 1117:  
+    #####: 1118:  return 0;
+        -: 1119:}
+        -: 1120:
+    #####: 1121:int feastCardEffect(struct gameState *state, int handPos, int currentPlayer, int choice1){
+        -: 1122:  int i;
+        -: 1123:  int x;
+        -: 1124:  int temphand[MAX_HAND];// moved above the if statement
+        -: 1125:
+        -: 1126:  //gain card with cost up to 5
+        -: 1127:  //Backup hand
+    #####: 1128:  for (i = 0; i <= state->handCount[currentPlayer]; i++){
+    #####: 1129:    temphand[i] = state->hand[currentPlayer][i];//Backup card
+    #####: 1130:    state->hand[currentPlayer][i] = -1;//Set to nothing
+        -: 1131:  }
+        -: 1132:  //Backup hand
+        -: 1133:
+        -: 1134:  //Update Coins for Buy
+    #####: 1135:  updateCoins(currentPlayer, state, 5);
+    #####: 1136:  x = 1;//Condition to loop on
+    #####: 1137:  while( x == 1) {//Buy one card
+    #####: 1138:    if (supplyCount(choice1, state) <= 0){
+        -: 1139:      if (DEBUG)
+        -: 1140:        printf("None of that card left, sorry!\n");
+        -: 1141:
+        -: 1142:      if (DEBUG){
+        -: 1143:        printf("Cards Left: %d\n", supplyCount(choice1, state));
+        -: 1144:      }
+        -: 1145:    }
+    #####: 1146:    else if (state->coins < getCost(choice1)){
+    #####: 1147:      printf("That card is too expensive!\n");
+        -: 1148:
+        -: 1149:      if (DEBUG){
+        -: 1150:        printf("Coins: %d < %d\n", state->coins, getCost(choice1));
+        -: 1151:      }
+        -: 1152:    }
+        -: 1153:    else{
+        -: 1154:
+        -: 1155:      if (DEBUG){
+        -: 1156:        printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -: 1157:      }
+        -: 1158:
+    #####: 1159:      gainCard(choice1, state, 0, currentPlayer);//Gain the card
+    #####: 1160:      x = 0;//No more buying cards
+        -: 1161:
+        -: 1162:      if (DEBUG){
+        -: 1163:        printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -: 1164:      }
+        -: 1165:    }
+        -: 1166:  }     
+        -: 1167:
+        -: 1168:  //Reset Hand
+    #####: 1169:  for (i = 0; i <= state->handCount[currentPlayer]; i++){
+    #####: 1170:    state->hand[currentPlayer][i] = temphand[i];
+    #####: 1171:    temphand[i] = -1;
+        -: 1172:  }  
+    #####: 1173:  return 0;
+        -: 1174:}
+        -: 1175:
+    #####: 1176:int mineCardEffect(struct gameState *state, int handPos, int currentPlayer, int choice2, int choice1){
+        -: 1177:  int i;
+        -: 1178:  int j;
+        -: 1179:
+    #####: 1180:  j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -: 1181:
+    #####: 1182:  if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+        -: 1183:  {
+    #####: 1184:    return -1;
+        -: 1185:  }
+        -: 1186:  
+    #####: 1187:  if (choice2 > treasure_map || choice2 < curse)
+        -: 1188:  {
+    #####: 1189:    return -1;
+        -: 1190:  }
+        -: 1191:
+    #####: 1192:  if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+        -: 1193:  {
+    #####: 1194:    return -1;
+        -: 1195:  }
+        -: 1196:
+    #####: 1197:  gainCard(choice2, state, 2, currentPlayer);
+        -: 1198:
+        -: 1199:  //discard card from hand
+    #####: 1200:  discardCard(handPos, currentPlayer, state, 0);
+        -: 1201:
+        -: 1202:  //discard trashed card
+    #####: 1203:  for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1204:  {
+    #####: 1205:    if (state->hand[currentPlayer][i] == j)
+        -: 1206:    {
+    #####: 1207:      discardCard(i, currentPlayer, state, 0);      
+    #####: 1208:      break;
+        -: 1209:    }
+        -: 1210:  }
+        -: 1211:  
+    #####: 1212:  return 0;
+        -: 1213:}
+        -: 1214:
+    #####: 1215:int remodelCardEffect(struct gameState *state, int handPos, int currentPlayer, int choice1, int choice2){
+        -: 1216:  int i;
+        -: 1217:  int j;
+        -: 1218:
+    #####: 1219:  j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -: 1220:
+    #####: 1221:  if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+        -: 1222:  {
+    #####: 1223:    return -1;
+        -: 1224:  }
+        -: 1225:
+    #####: 1226:  gainCard(choice2, state, 0, currentPlayer);
+        -: 1227:
+        -: 1228:  //discard card from hand
+    #####: 1229:  discardCard(handPos, currentPlayer, state, 0);
+        -: 1230:
+        -: 1231:  //discard trashed card
+    #####: 1232:  for (i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1233:  {
+    #####: 1234:    if (state->hand[currentPlayer][i] == j)
+        -: 1235:    {
+    #####: 1236:      discardCard(i, currentPlayer, state, 0);      
+    #####: 1237:      break;
+        -: 1238:    }
+        -: 1239:  }
+        -: 1240:
+        -: 1241:
+    #####: 1242:  return 0;
+        -: 1243:}
+        -: 1244:
+        6: 1245:int smithyCardEffect(struct gameState *state, int handPos, int currentPlayer){
+        -: 1246:  int i;
+        -: 1247:  //+3 Cards
+       24: 1248:  for (i = 0; i < 3; i++)
+        -: 1249:  {
+       18: 1250:    drawCard(currentPlayer, state);
+        -: 1251:  }
+        -: 1252:  
+        -: 1253:  //discard card from hand
+        6: 1254:  discardCard(handPos, currentPlayer, state, 0);
+        6: 1255:  return 0;
+        -: 1256:}
+        -: 1257:
+        -: 1258:
+       29: 1259:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+        -: 1260:{
+        -: 1261:	
+        -: 1262:  //if card is not trashed, added to Played pile 
+       29: 1263:  if (trashFlag < 1)
+        -: 1264:  {
+        -: 1265:      //add card to played pile
+       25: 1266:    state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+       25: 1267:    state->playedCardCount++;
+        -: 1268:  }
+        -: 1269:  
+        -: 1270:  //set played card to -1
+       29: 1271:  state->hand[currentPlayer][handPos] = -1;
+        -: 1272:  
+        -: 1273:  //remove card from player's hand
+       29: 1274:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+        -: 1275:  {
+        -: 1276:      //reduce number of cards in hand
+        3: 1277:    state->handCount[currentPlayer]--;
+        -: 1278:  }
+       26: 1279:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+        -: 1280:  {
+        -: 1281:      //reduce number of cards in hand
+    #####: 1282:    state->handCount[currentPlayer]--;
+        -: 1283:  }
+        -: 1284:  else 	
+        -: 1285:  {
+        -: 1286:      //replace discarded card with last card in hand
+       26: 1287:    state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+        -: 1288:      //set last card to -1
+       26: 1289:    state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+        -: 1290:      //reduce number of cards in hand
+       26: 1291:    state->handCount[currentPlayer]--;
+        -: 1292:  }
+        -: 1293:  
+       29: 1294:  return 0;
+        -: 1295:}
+        -: 1296:
+       82: 1297:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+        -: 1298:{
+        -: 1299:  //Note: supplyPos is enum of choosen card
+        -: 1300:	
+        -: 1301:  //check if supply pile is empty (0) or card is not used in game (-1)
+       82: 1302:  if ( supplyCount(supplyPos, state) < 1 )
+        -: 1303:  {
+    #####: 1304:    return -1;
+        -: 1305:  }
+        -: 1306:  
+        -: 1307:  //added card for [whoseTurn] current player:
+        -: 1308:  // toFlag = 0 : add to discard
+        -: 1309:  // toFlag = 1 : add to deck
+        -: 1310:  // toFlag = 2 : add to hand
+        -: 1311:
+       82: 1312:  if (toFlag == 1)
+        -: 1313:  {
+    #####: 1314:    state->deck[ player ][ state->deckCount[player] ] = supplyPos;
+    #####: 1315:    state->deckCount[player]++;
+        -: 1316:  }
+       82: 1317:  else if (toFlag == 2)
+        -: 1318:  {
+    #####: 1319:    state->hand[ player ][ state->handCount[player] ] = supplyPos;
+    #####: 1320:    state->handCount[player]++;
+        -: 1321:  }
+        -: 1322:  else
+        -: 1323:  {
+       82: 1324:    state->discard[player][ state->discardCount[player] ] = supplyPos;
+       82: 1325:    state->discardCount[player]++;
+        -: 1326:  }
+        -: 1327:  
+        -: 1328:  //decrease number in supply pile
+       82: 1329:  state->supplyCount[supplyPos]--;
+        -: 1330:  
+       82: 1331:  return 0;
+        -: 1332:}
+        -: 1333:
+      185: 1334:int updateCoins(int player, struct gameState *state, int bonus)
+        -: 1335:{
+        -: 1336:  int i;
+        -: 1337:  
+        -: 1338:  //reset coin count
+      185: 1339:  state->coins = 0;
+        -: 1340:
+        -: 1341:  //add coins for each Treasure card in player's hand
+     1112: 1342:  for (i = 0; i < state->handCount[player]; i++)
+        -: 1343:  {
+      927: 1344:    if (state->hand[player][i] == copper)
+        -: 1345:    {
+      522: 1346:     state->coins += 1;
+        -: 1347:   }
+      405: 1348:   else if (state->hand[player][i] == silver)
+        -: 1349:   {
+    #####: 1350:     state->coins += 2;
+        -: 1351:   }
+      405: 1352:   else if (state->hand[player][i] == gold)
+        -: 1353:   {
+    #####: 1354:     state->coins += 3;
+        -: 1355:   }	
+        -: 1356: }	
+        -: 1357:
+        -: 1358:  //add bonus
+      185: 1359: state->coins += bonus;
+        -: 1360:
+      185: 1361: return 0;
+        -: 1362:}
+        -: 1363:
+        -: 1364:
+        -: 1365://end of dominion.c
+        -: 1366:

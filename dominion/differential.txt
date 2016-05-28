@@ -1,0 +1,7 @@
+After running my own impementation of dominion multiple times I noticed that the card effect for trubute was not working correctly.
+
+After running the dominion implementation of eastwooc once, I was able to see that the card effects for both embargo and salvager were throwing errors.
+
+The value with theses comparisons is that I should be able to pick and choose the implementations of card effects that are working correctly from both to be combined into a single dominion game. I could collect all students implementations and combine only the working sections after running theses tests.
+
+Although my tests for assignment 4 are mostly just outputing the results of the game, these tests are quite effective. If I were to implement my tests from prior assinments I would be able to gather much more useful information.
