@@ -1,0 +1,11 @@
+Bug:
+Treasure cards are being converted to coins without user permission. Treasure cards should only increase their coin count when the coin is played. The current implementation converts treasure cards to coins when an action is played.
+
+Severity:
+Medium severity. The rules of dominion state that treasure cards should be played individually in order to increase a players coin count. The current implementation does not follow the rules of dominion and deserves at least a medium severity.
+
+Priority:
+Medium priority. The card itself could be temporarily disabled from play while the bug was being resolved.
+
+Suggested fix:
+Treat treasure cards the same as other cards such that a player must select and play the card independently. Remove the automatic process that converts treasure cards to coins in the action phase.

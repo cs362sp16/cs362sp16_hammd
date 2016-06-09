@@ -1,0 +1,11 @@
+Bug:
+When running full game tests of dominion I found that playing the remodel card was returning with an error status.
+
+Severity:
+High severity. Any game involving the remodel kingdom card could fail during its card effect.
+
+Priority:
+Medium priority. The card itself could be temporarily disabled from play while the bug was being resolved.
+
+Suggested fix:
+Since my test only checked for an error status code I can't suggest any direct action that would resolve the bug. More testing is needed.

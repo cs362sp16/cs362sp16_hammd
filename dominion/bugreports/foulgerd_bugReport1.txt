@@ -1,0 +1,12 @@
+Bug:
+initializeGame() does not deal the correct number of cards to each player.
+The function succesfully deals cards from player 1's deck to their hand but fails to repeat this process for the other players.
+
+Severity:
+Medium severity. The current implementation deals cards to players at the start of their respective turns. Although this works, it does not follow the rules for Dominion.
+
+Priority:
+Medium priority. Since the bug contrasts the rules of the game it should be fixed sooner than later.
+
+Suggested fix:
+Deal cards to each player during initializeGame(). Change any logic required to ensure that drawing cards occurs during the correct game phase.

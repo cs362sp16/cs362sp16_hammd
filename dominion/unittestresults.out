@@ -1478,3 +1478,33 @@ Creating 'dominion.c.gcov'
         -: 1364:
         -: 1365://end of dominion.c
         -: 1366:
+File 'dominion.c'
+Lines executed:23.21% of 560
+Creating 'dominion.c.gcov'
+
+--------------------
+File 'dominion.c'
+Lines executed:23.21% of 560
+Creating 'dominion.c.gcov'
+
+--------------------
+File 'dominion.c'
+Lines executed:28.52% of 561
+Creating 'dominion.c.gcov'
+
+--------------------
+File 'dominion.c'
+Lines executed:24.91% of 562
+Creating 'dominion.c.gcov'
+
+--------------------
+File 'dominion.c'
+Lines executed:25.04% of 563
+Creating 'dominion.c.gcov'
+
+--------------------
+File 'dominion.c'
+Lines executed:25.58% of 563
+Creating 'dominion.c.gcov'
+
+--------------------

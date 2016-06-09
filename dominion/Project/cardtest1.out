@@ -1,0 +1,19 @@
+Starting cardtest1
+Test when both copper on top of deck.
+Failed Assert: The copper was not added.:Expected(4),Actual(7)
+Failed Assert: The adventurer was not discarded.:Expected(1),Actual(0)
+Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
+Test when both copper on the bottom of the deck.
+Failed Assert: The copper was not added.:Expected(4),Actual(7)
+Failed Assert: The adventurer and estates should have been discarded.:Expected(4),Actual(3)
+Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
+Test when both copper are in the middle of the deck.
+Failed Assert: The copper was not added.:Expected(4),Actual(7)
+Failed Assert: The adventurer and an estate should have been discarded.:Expected(2),Actual(1)
+Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
+Test when we need to shuffle in discard pile to get the second copper.
+Failed Assert: The copper was not added.:Expected(4),Actual(7)
+Failed Assert: The hand size should increase by one.:Expected(6),Actual(7)
+Test when we only have one copper to get.
+Failed Assert: The copper was not added.:Expected(4),Actual(7)
+Failed Assert: The hand size should stay the same.:Expected(5),Actual(6)

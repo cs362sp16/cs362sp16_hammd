@@ -1,0 +1,14 @@
+Starting cardtest1
+Test when both copper on top of deck.
+Failed Assert: The adventurer was not discarded.:Expected(1),Actual(0)
+Test when both copper on the bottom of the deck.
+Failed Assert: The adventurer and estates should have been discarded.:Expected(4),Actual(3)
+Test when both copper are in the middle of the deck.
+Failed Assert: The adventurer and an estate should have been discarded.:Expected(2),Actual(1)
+Test when we need to shuffle in discard pile to get the second copper.
+Test when we only have one copper to get.
+File 'dominion.c'
+Lines executed:25.58% of 563
+Creating 'dominion.c.gcov'
+
+--------------------

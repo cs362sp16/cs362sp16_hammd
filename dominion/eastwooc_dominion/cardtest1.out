@@ -1,0 +1,11 @@
+Starting cardtest1
+Test when both copper on top of deck.
+Test when both copper on the bottom of the deck.
+Test when both copper are in the middle of the deck.
+Test when we need to shuffle in discard pile to get the second copper.
+Test when we only have one copper to get.
+File 'dominion.c'
+Lines executed:25.12% of 649
+Creating 'dominion.c.gcov'
+
+--------------------

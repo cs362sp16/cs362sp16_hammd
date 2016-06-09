@@ -1,0 +1,5 @@
+Using the unit test file cardtest1.c I was able to find a bug that was affecting the adventurer card effect. The bug caused the player to fail to draw an available treasure card in some cases. My unit test alone was insufficient to locate the exact cause of the bug. At first I thought that perhaps the drawCard or discardCard functions were part of the problem. I decided to modify my makefile to include cardtest1.out to speed of my process.
+
+Using the GNU debugger I was able to determine that the treasures were not being drawn when they occupied to first position in the deck. This also included the case when new cards were shuffled in from the discard pile. Breakpoints were the primary reason for my success with the GNU debugger. I used breakpoints to step through the function call which caused me to notice the odd behavior at the deck edge cases.
+
+I didn’t find much use of Agans’ rules. The closest connection for me  to Agans’s rules would be when I was using the debugger to step through the function call to look for any odd behavior which follows from #3 of Agans’s rules.

@@ -1,0 +1,1 @@
+int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed, struct gameState *state);

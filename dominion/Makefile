@@ -68,6 +68,11 @@ randomtestcard.out: randomtestcard
 	gcov dominion.c >> randomtestcard.out
 	cat dominion.c.gcov >> randomtestcard.out
 
+cardtest1.out: cardtest1
+	./cardtest1 > cardtest1.out
+	gcov dominion.c >> cardtest1.out
+	echo "--------------------" >> cardtest1.out
+
 unittestresults.out: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4
 			./unittest1 > unittestresults.out
 			gcov dominion.c >> unittestresults.out

@@ -1069,26 +1069,42 @@ int adventurerCardEffect(struct gameState *state, int handPos, int currentPlayer
   int temphand[MAX_HAND];// moved above the if statement
   int drawntreasure=0;
   int cardDrawn;
-  int z = 1;// this is the counter for the temp hand
+  int z = 0;// this is the counter for the temp hand
 
   while(drawntreasure<2){
     if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
       shuffle(currentPlayer, state);
     }
-    drawCard(currentPlayer, state);
+    if(drawCard(currentPlayer, state) == -1){
+      break;
+    }
     cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
     if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
       drawntreasure++;
     else{
       temphand[z]=cardDrawn;
+      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
       state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
       z++;
     }
   }
-  while(z-1>=0){
+  while(z > 0){
     state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-    z=z-1;
+    z--;
   }
+
+  //Find the location
+  /*
+  if(state->hand[currentPlayer][state->handCount[currentPlayer]-1] == adventurer){
+    handPos = state->handCount[currentPlayer]-1;
+  } else if(state->hand[currentPlayer][state->handCount[currentPlayer]-2] == adventurer){
+    handPos = state->handCount[currentPlayer]-2;
+  } else if(state->hand[currentPlayer][state->handCount[currentPlayer]-3] == adventurer){
+    handPos = state->handCount[currentPlayer]-3;
+  }
+  */
+
+  discardCard(handPos, currentPlayer, state, 0);
   return 0;
 }
 
